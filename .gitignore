@@ -1,0 +1,21 @@
+# Blender auto-saves and backup files
+*.blend1
+*.blend2
+*.blend@
+
+# Python cache & build files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Operating System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Temporary build / QA files
+*.tmp
+*.bak
+*.log
