@@ -1,0 +1,17 @@
+{
+  "SEC_Camera_PTZ_Industrial": {
+    "asset_name": "SEC_Camera_PTZ_Industrial",
+    "fbx_path": "exports/SEC_Camera_PTZ_Industrial.fbx",
+    "blend_path": "exports/SEC_Camera_PTZ_Industrial.blend",
+    "tris_count": 724,
+    "mesh_count": 5,
+    "empty_count": 2,
+    "materials": [
+      "M_Emission",
+      "M_Lens_Glass",
+      "M_Metal",
+      "M_Security_Atlas"
+    ],
+    "status": "SUCCESS"
+  }
+}
