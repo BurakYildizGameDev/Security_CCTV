@@ -1,0 +1,16 @@
+{
+  "SEC_Sensor_PIR_Motion": {
+    "asset_name": "SEC_Sensor_PIR_Motion",
+    "fbx_path": "exports/SEC_Sensor_PIR_Motion.fbx",
+    "blend_path": "exports/SEC_Sensor_PIR_Motion.blend",
+    "tris_count": 132,
+    "mesh_count": 4,
+    "empty_count": 0,
+    "materials": [
+      "M_Emission",
+      "M_Security_Atlas",
+      "M_Transparent"
+    ],
+    "status": "SUCCESS"
+  }
+}
