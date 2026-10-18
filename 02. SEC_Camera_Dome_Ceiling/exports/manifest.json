@@ -1,0 +1,17 @@
+{
+  "SEC_Camera_Dome_Ceiling": {
+    "asset_name": "SEC_Camera_Dome_Ceiling",
+    "fbx_path": "exports/SEC_Camera_Dome_Ceiling.fbx",
+    "blend_path": "exports/SEC_Camera_Dome_Ceiling.blend",
+    "tris_count": 466,
+    "mesh_count": 6,
+    "empty_count": 1,
+    "materials": [
+      "M_Emission",
+      "M_Lens_Glass",
+      "M_Security_Atlas",
+      "M_Transparent"
+    ],
+    "status": "SUCCESS"
+  }
+}
