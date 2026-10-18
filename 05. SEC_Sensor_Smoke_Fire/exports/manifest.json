@@ -1,0 +1,15 @@
+{
+  "SEC_Sensor_Smoke_Fire": {
+    "asset_name": "SEC_Sensor_Smoke_Fire",
+    "fbx_path": "exports/SEC_Sensor_Smoke_Fire.fbx",
+    "blend_path": "exports/SEC_Sensor_Smoke_Fire.blend",
+    "tris_count": 232,
+    "mesh_count": 4,
+    "empty_count": 0,
+    "materials": [
+      "M_Emission",
+      "M_Security_Atlas"
+    ],
+    "status": "SUCCESS"
+  }
+}
