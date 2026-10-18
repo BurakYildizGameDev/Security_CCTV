@@ -1,0 +1,16 @@
+{
+  "SEC_Camera_Box_Wall": {
+    "asset_name": "SEC_Camera_Box_Wall",
+    "fbx_path": "exports/SEC_Camera_Box_Wall.fbx",
+    "blend_path": "exports/SEC_Camera_Box_Wall.blend",
+    "tris_count": 394,
+    "mesh_count": 5,
+    "empty_count": 1,
+    "materials": [
+      "M_Lens_Glass",
+      "M_Metal",
+      "M_Security_Atlas"
+    ],
+    "status": "SUCCESS"
+  }
+}
