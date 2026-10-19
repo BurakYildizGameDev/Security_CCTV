@@ -1,0 +1,16 @@
+{
+  "SEC_Biometric_Fingerprint_Reader": {
+    "asset_name": "SEC_Biometric_Fingerprint_Reader",
+    "fbx_path": "exports/SEC_Biometric_Fingerprint_Reader.fbx",
+    "blend_path": "exports/SEC_Biometric_Fingerprint_Reader.blend",
+    "tris_count": 268,
+    "mesh_count": 5,
+    "empty_count": 1,
+    "materials": [
+      "M_Emission",
+      "M_Screen",
+      "M_Security_Atlas"
+    ],
+    "status": "SUCCESS"
+  }
+}
