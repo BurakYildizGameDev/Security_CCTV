@@ -1,0 +1,16 @@
+{
+  "SEC_Keypad_Access_Panel": {
+    "asset_name": "SEC_Keypad_Access_Panel",
+    "fbx_path": "exports/SEC_Keypad_Access_Panel.fbx",
+    "blend_path": "exports/SEC_Keypad_Access_Panel.blend",
+    "tris_count": 486,
+    "mesh_count": 16,
+    "empty_count": 12,
+    "materials": [
+      "M_Emission",
+      "M_Screen",
+      "M_Security_Atlas"
+    ],
+    "status": "SUCCESS"
+  }
+}
