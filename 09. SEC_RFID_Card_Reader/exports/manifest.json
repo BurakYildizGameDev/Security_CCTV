@@ -1,0 +1,15 @@
+{
+  "SEC_RFID_Card_Reader": {
+    "asset_name": "SEC_RFID_Card_Reader",
+    "fbx_path": "exports/SEC_RFID_Card_Reader.fbx",
+    "blend_path": "exports/SEC_RFID_Card_Reader.blend",
+    "tris_count": 192,
+    "mesh_count": 4,
+    "empty_count": 1,
+    "materials": [
+      "M_Emission",
+      "M_Security_Atlas"
+    ],
+    "status": "SUCCESS"
+  }
+}
