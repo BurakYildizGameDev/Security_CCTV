@@ -1,0 +1,16 @@
+{
+  "SEC_Laser_Barrier_Receiver": {
+    "asset_name": "SEC_Laser_Barrier_Receiver",
+    "fbx_path": "exports/SEC_Laser_Barrier_Receiver.fbx",
+    "blend_path": "exports/SEC_Laser_Barrier_Receiver.blend",
+    "tris_count": 270,
+    "mesh_count": 4,
+    "empty_count": 1,
+    "materials": [
+      "M_Emission",
+      "M_Lens_Glass",
+      "M_Security_Atlas"
+    ],
+    "status": "SUCCESS"
+  }
+}
