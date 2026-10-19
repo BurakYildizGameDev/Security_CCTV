@@ -1,0 +1,16 @@
+{
+  "SEC_Laser_Barrier_Emitter": {
+    "asset_name": "SEC_Laser_Barrier_Emitter",
+    "fbx_path": "exports/SEC_Laser_Barrier_Emitter.fbx",
+    "blend_path": "exports/SEC_Laser_Barrier_Emitter.blend",
+    "tris_count": 242,
+    "mesh_count": 4,
+    "empty_count": 1,
+    "materials": [
+      "M_Emission",
+      "M_Lens_Glass",
+      "M_Security_Atlas"
+    ],
+    "status": "SUCCESS"
+  }
+}
