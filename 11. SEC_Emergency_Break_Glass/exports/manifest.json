@@ -1,0 +1,16 @@
+{
+  "SEC_Emergency_Break_Glass": {
+    "asset_name": "SEC_Emergency_Break_Glass",
+    "fbx_path": "exports/SEC_Emergency_Break_Glass.fbx",
+    "blend_path": "exports/SEC_Emergency_Break_Glass.blend",
+    "tris_count": 238,
+    "mesh_count": 4,
+    "empty_count": 1,
+    "materials": [
+      "M_Emission",
+      "M_Security_Atlas",
+      "M_Transparent"
+    ],
+    "status": "SUCCESS"
+  }
+}
