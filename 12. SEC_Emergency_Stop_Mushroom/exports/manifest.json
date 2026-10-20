@@ -1,0 +1,15 @@
+{
+  "SEC_Emergency_Stop_Mushroom": {
+    "asset_name": "SEC_Emergency_Stop_Mushroom",
+    "fbx_path": "exports/SEC_Emergency_Stop_Mushroom.fbx",
+    "blend_path": "exports/SEC_Emergency_Stop_Mushroom.blend",
+    "tris_count": 254,
+    "mesh_count": 3,
+    "empty_count": 2,
+    "materials": [
+      "M_Emission",
+      "M_Security_Atlas"
+    ],
+    "status": "SUCCESS"
+  }
+}
