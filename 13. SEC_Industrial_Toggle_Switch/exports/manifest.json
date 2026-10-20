@@ -1,0 +1,15 @@
+{
+  "SEC_Industrial_Toggle_Switch": {
+    "asset_name": "SEC_Industrial_Toggle_Switch",
+    "fbx_path": "exports/SEC_Industrial_Toggle_Switch.fbx",
+    "blend_path": "exports/SEC_Industrial_Toggle_Switch.blend",
+    "tris_count": 264,
+    "mesh_count": 3,
+    "empty_count": 2,
+    "materials": [
+      "M_Metal",
+      "M_Security_Atlas"
+    ],
+    "status": "SUCCESS"
+  }
+}
