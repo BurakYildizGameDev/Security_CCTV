@@ -1,0 +1,16 @@
+{
+  "SEC_Monitor_CRT_90s": {
+    "asset_name": "SEC_Monitor_CRT_90s",
+    "fbx_path": "exports/SEC_Monitor_CRT_90s.fbx",
+    "blend_path": "exports/SEC_Monitor_CRT_90s.blend",
+    "tris_count": 521,
+    "mesh_count": 5,
+    "empty_count": 1,
+    "materials": [
+      "M_Metal",
+      "M_Screen",
+      "M_Security_Atlas"
+    ],
+    "status": "SUCCESS"
+  }
+}
