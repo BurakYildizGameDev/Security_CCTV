@@ -1,0 +1,15 @@
+{
+  "SEC_Magnetic_Door_Lock": {
+    "asset_name": "SEC_Magnetic_Door_Lock",
+    "fbx_path": "exports/SEC_Magnetic_Door_Lock.fbx",
+    "blend_path": "exports/SEC_Magnetic_Door_Lock.blend",
+    "tris_count": 310,
+    "mesh_count": 3,
+    "empty_count": 2,
+    "materials": [
+      "M_Metal",
+      "M_Security_Atlas"
+    ],
+    "status": "SUCCESS"
+  }
+}
