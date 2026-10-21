@@ -1,0 +1,16 @@
+{
+  "SEC_Alarm_Siren_Beacon": {
+    "asset_name": "SEC_Alarm_Siren_Beacon",
+    "fbx_path": "exports/SEC_Alarm_Siren_Beacon.fbx",
+    "blend_path": "exports/SEC_Alarm_Siren_Beacon.blend",
+    "tris_count": 194,
+    "mesh_count": 5,
+    "empty_count": 1,
+    "materials": [
+      "M_Emission",
+      "M_Security_Atlas",
+      "M_Transparent"
+    ],
+    "status": "SUCCESS"
+  }
+}
