@@ -1,0 +1,17 @@
+{
+  "SEC_UPS_Power_Supply": {
+    "asset_name": "SEC_UPS_Power_Supply",
+    "fbx_path": "exports/SEC_UPS_Power_Supply.fbx",
+    "blend_path": "exports/SEC_UPS_Power_Supply.blend",
+    "tris_count": 240,
+    "mesh_count": 5,
+    "empty_count": 1,
+    "materials": [
+      "M_Emission",
+      "M_Metal",
+      "M_Screen",
+      "M_Security_Atlas"
+    ],
+    "status": "SUCCESS"
+  }
+}
