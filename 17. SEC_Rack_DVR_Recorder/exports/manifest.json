@@ -1,0 +1,17 @@
+{
+  "SEC_Rack_DVR_Recorder": {
+    "asset_name": "SEC_Rack_DVR_Recorder",
+    "fbx_path": "exports/SEC_Rack_DVR_Recorder.fbx",
+    "blend_path": "exports/SEC_Rack_DVR_Recorder.blend",
+    "tris_count": 227,
+    "mesh_count": 6,
+    "empty_count": 1,
+    "materials": [
+      "M_Security_Atlas",
+      "M_Screen",
+      "M_Emission",
+      "M_Metal"
+    ],
+    "status": "SUCCESS"
+  }
+}
