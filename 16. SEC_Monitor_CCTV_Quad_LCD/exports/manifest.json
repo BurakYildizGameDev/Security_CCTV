@@ -1,0 +1,16 @@
+{
+  "SEC_Monitor_CCTV_Quad_LCD": {
+    "asset_name": "SEC_Monitor_CCTV_Quad_LCD",
+    "fbx_path": "exports/SEC_Monitor_CCTV_Quad_LCD.fbx",
+    "blend_path": "exports/SEC_Monitor_CCTV_Quad_LCD.blend",
+    "tris_count": 424,
+    "mesh_count": 7,
+    "empty_count": 2,
+    "materials": [
+      "M_Security_Atlas",
+      "M_Screen",
+      "M_Metal"
+    ],
+    "status": "SUCCESS"
+  }
+}
