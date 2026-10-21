@@ -1,0 +1,16 @@
+{
+  "SEC_Console_Camera_Joystick": {
+    "asset_name": "SEC_Console_Camera_Joystick",
+    "fbx_path": "exports/SEC_Console_Camera_Joystick.fbx",
+    "blend_path": "exports/SEC_Console_Camera_Joystick.blend",
+    "tris_count": 506,
+    "mesh_count": 6,
+    "empty_count": 2,
+    "materials": [
+      "M_Security_Atlas",
+      "M_Screen",
+      "M_Emission"
+    ],
+    "status": "SUCCESS"
+  }
+}
