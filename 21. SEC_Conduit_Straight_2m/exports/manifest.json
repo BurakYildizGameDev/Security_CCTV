@@ -1,0 +1,14 @@
+{
+  "SEC_Conduit_Straight_2m": {
+    "asset_name": "SEC_Conduit_Straight_2m",
+    "fbx_path": "exports/SEC_Conduit_Straight_2m.fbx",
+    "blend_path": "exports/SEC_Conduit_Straight_2m.blend",
+    "tris_count": 128,
+    "mesh_count": 3,
+    "empty_count": 1,
+    "materials": [
+      "M_Metal"
+    ],
+    "status": "SUCCESS"
+  }
+}
