@@ -1,0 +1,14 @@
+{
+  "SEC_Conduit_Junction_T": {
+    "asset_name": "SEC_Conduit_Junction_T",
+    "fbx_path": "exports/SEC_Conduit_Junction_T.fbx",
+    "blend_path": "exports/SEC_Conduit_Junction_T.blend",
+    "tris_count": 690,
+    "mesh_count": 5,
+    "empty_count": 1,
+    "materials": [
+      "M_Metal"
+    ],
+    "status": "SUCCESS"
+  }
+}
