@@ -1,0 +1,15 @@
+{
+  "SEC_Hanging_Industrial_Cable_Bundle": {
+    "asset_name": "SEC_Hanging_Industrial_Cable_Bundle",
+    "fbx_path": "exports/SEC_Hanging_Industrial_Cable_Bundle.fbx",
+    "blend_path": "exports/SEC_Hanging_Industrial_Cable_Bundle.blend",
+    "tris_count": 498,
+    "mesh_count": 11,
+    "empty_count": 1,
+    "materials": [
+      "M_Metal",
+      "M_Security_Atlas"
+    ],
+    "status": "SUCCESS"
+  }
+}
