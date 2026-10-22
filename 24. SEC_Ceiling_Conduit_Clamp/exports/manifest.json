@@ -1,0 +1,14 @@
+{
+  "SEC_Ceiling_Conduit_Clamp": {
+    "asset_name": "SEC_Ceiling_Conduit_Clamp",
+    "fbx_path": "exports/SEC_Ceiling_Conduit_Clamp.fbx",
+    "blend_path": "exports/SEC_Ceiling_Conduit_Clamp.blend",
+    "tris_count": 364,
+    "mesh_count": 4,
+    "empty_count": 1,
+    "materials": [
+      "M_Metal"
+    ],
+    "status": "SUCCESS"
+  }
+}
