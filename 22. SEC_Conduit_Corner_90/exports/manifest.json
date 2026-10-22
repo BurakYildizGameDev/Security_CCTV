@@ -1,0 +1,14 @@
+{
+  "SEC_Conduit_Corner_90": {
+    "asset_name": "SEC_Conduit_Corner_90",
+    "fbx_path": "exports/SEC_Conduit_Corner_90.fbx",
+    "blend_path": "exports/SEC_Conduit_Corner_90.blend",
+    "tris_count": 1548,
+    "mesh_count": 3,
+    "empty_count": 1,
+    "materials": [
+      "M_Metal"
+    ],
+    "status": "SUCCESS"
+  }
+}
