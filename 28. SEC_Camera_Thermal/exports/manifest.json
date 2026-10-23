@@ -1,0 +1,16 @@
+{
+  "SEC_Camera_Thermal": {
+    "asset_name": "SEC_Camera_Thermal",
+    "fbx_path": "exports/SEC_Camera_Thermal.fbx",
+    "blend_path": "exports/SEC_Camera_Thermal.blend",
+    "tris_count": 438,
+    "mesh_count": 3,
+    "empty_count": 2,
+    "materials": [
+      "M_Security_Atlas",
+      "M_Lens_Glass",
+      "M_Metal"
+    ],
+    "status": "SUCCESS"
+  }
+}
