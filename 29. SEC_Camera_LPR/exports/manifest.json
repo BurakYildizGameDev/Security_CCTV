@@ -1,0 +1,16 @@
+{
+  "SEC_Camera_LPR": {
+    "asset_name": "SEC_Camera_LPR",
+    "fbx_path": "exports/SEC_Camera_LPR.fbx",
+    "blend_path": "exports/SEC_Camera_LPR.blend",
+    "tris_count": 510,
+    "mesh_count": 4,
+    "empty_count": 2,
+    "materials": [
+      "M_Security_Atlas",
+      "M_Lens_Glass",
+      "M_Emission"
+    ],
+    "status": "SUCCESS"
+  }
+}
