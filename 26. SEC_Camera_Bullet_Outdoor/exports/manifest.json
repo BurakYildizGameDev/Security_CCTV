@@ -1,0 +1,16 @@
+{
+  "SEC_Camera_Bullet_Outdoor": {
+    "asset_name": "SEC_Camera_Bullet_Outdoor",
+    "fbx_path": "exports/SEC_Camera_Bullet_Outdoor.fbx",
+    "blend_path": "exports/SEC_Camera_Bullet_Outdoor.blend",
+    "tris_count": 486,
+    "mesh_count": 5,
+    "empty_count": 2,
+    "materials": [
+      "M_Security_Atlas",
+      "M_Lens_Glass",
+      "M_Emission"
+    ],
+    "status": "SUCCESS"
+  }
+}
