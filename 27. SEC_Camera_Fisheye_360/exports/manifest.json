@@ -1,0 +1,15 @@
+{
+  "SEC_Camera_Fisheye_360": {
+    "asset_name": "SEC_Camera_Fisheye_360",
+    "fbx_path": "exports/SEC_Camera_Fisheye_360.fbx",
+    "blend_path": "exports/SEC_Camera_Fisheye_360.blend",
+    "tris_count": 288,
+    "mesh_count": 3,
+    "empty_count": 1,
+    "materials": [
+      "M_Security_Atlas",
+      "M_Lens_Glass"
+    ],
+    "status": "SUCCESS"
+  }
+}
