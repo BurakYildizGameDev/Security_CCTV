@@ -1,0 +1,15 @@
+{
+  "SEC_Sensor_Glass_Break": {
+    "asset_name": "SEC_Sensor_Glass_Break",
+    "fbx_path": "exports/SEC_Sensor_Glass_Break.fbx",
+    "blend_path": "exports/SEC_Sensor_Glass_Break.blend",
+    "tris_count": 172,
+    "mesh_count": 4,
+    "empty_count": 2,
+    "materials": [
+      "M_Security_Atlas",
+      "M_Emission"
+    ],
+    "status": "SUCCESS"
+  }
+}
