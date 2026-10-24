@@ -1,0 +1,15 @@
+{
+  "SEC_Camera_Concealed_Smoke": {
+    "asset_name": "SEC_Camera_Concealed_Smoke",
+    "fbx_path": "exports/SEC_Camera_Concealed_Smoke.fbx",
+    "blend_path": "exports/SEC_Camera_Concealed_Smoke.blend",
+    "tris_count": 214,
+    "mesh_count": 4,
+    "empty_count": 1,
+    "materials": [
+      "M_Security_Atlas",
+      "M_Lens_Glass"
+    ],
+    "status": "SUCCESS"
+  }
+}
