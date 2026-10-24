@@ -1,0 +1,15 @@
+{
+  "SEC_Sensor_Door_Contact": {
+    "asset_name": "SEC_Sensor_Door_Contact",
+    "fbx_path": "exports/SEC_Sensor_Door_Contact.fbx",
+    "blend_path": "exports/SEC_Sensor_Door_Contact.blend",
+    "tris_count": 176,
+    "mesh_count": 8,
+    "empty_count": 2,
+    "materials": [
+      "M_Security_Atlas",
+      "M_Metal"
+    ],
+    "status": "SUCCESS"
+  }
+}
