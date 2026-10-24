@@ -1,0 +1,16 @@
+{
+  "SEC_Camera_Armored": {
+    "asset_name": "SEC_Camera_Armored",
+    "fbx_path": "exports/SEC_Camera_Armored.fbx",
+    "blend_path": "exports/SEC_Camera_Armored.blend",
+    "tris_count": 570,
+    "mesh_count": 4,
+    "empty_count": 2,
+    "materials": [
+      "M_Security_Atlas",
+      "M_Metal",
+      "M_Lens_Glass"
+    ],
+    "status": "SUCCESS"
+  }
+}
