@@ -1,0 +1,19 @@
+{
+  "SEC_Beam_Detector_Dual": {
+    "asset_name": "SEC_Beam_Detector_Dual",
+    "fbx_path": "exports/SEC_Beam_Detector_Dual.fbx",
+    "blend_path": "exports/SEC_Beam_Detector_Dual.blend",
+    "tris_count": 256,
+    "mesh_count": 5,
+    "empty_count": 2,
+    "materials": [
+      "M_Security_Atlas",
+      "M_Lens_Glass",
+      "M_Emission"
+    ],
+    "moving_pivots": [
+      "Aim_Pivot"
+    ],
+    "status": "SUCCESS"
+  }
+}
