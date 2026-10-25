@@ -1,0 +1,16 @@
+{
+  "SEC_Sensor_Gas": {
+    "asset_name": "SEC_Sensor_Gas",
+    "fbx_path": "exports/SEC_Sensor_Gas.fbx",
+    "blend_path": "exports/SEC_Sensor_Gas.blend",
+    "tris_count": 224,
+    "mesh_count": 6,
+    "empty_count": 1,
+    "materials": [
+      "M_Security_Atlas",
+      "M_Emission",
+      "M_Metal"
+    ],
+    "status": "SUCCESS"
+  }
+}
