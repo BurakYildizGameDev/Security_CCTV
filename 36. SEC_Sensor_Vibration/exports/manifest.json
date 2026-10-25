@@ -1,0 +1,15 @@
+{
+  "SEC_Sensor_Vibration": {
+    "asset_name": "SEC_Sensor_Vibration",
+    "fbx_path": "exports/SEC_Sensor_Vibration.fbx",
+    "blend_path": "exports/SEC_Sensor_Vibration.blend",
+    "tris_count": 216,
+    "mesh_count": 10,
+    "empty_count": 1,
+    "materials": [
+      "M_Security_Atlas",
+      "M_Metal"
+    ],
+    "status": "SUCCESS"
+  }
+}
