@@ -1,0 +1,15 @@
+{
+  "SEC_Sensor_Ultrasonic": {
+    "asset_name": "SEC_Sensor_Ultrasonic",
+    "fbx_path": "exports/SEC_Sensor_Ultrasonic.fbx",
+    "blend_path": "exports/SEC_Sensor_Ultrasonic.blend",
+    "tris_count": 176,
+    "mesh_count": 4,
+    "empty_count": 1,
+    "materials": [
+      "M_Security_Atlas",
+      "M_Emission"
+    ],
+    "status": "SUCCESS"
+  }
+}
