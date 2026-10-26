@@ -1,0 +1,19 @@
+{
+  "SEC_Access_Exit_Button": {
+    "asset_name": "SEC_Access_Exit_Button",
+    "fbx_path": "exports/SEC_Access_Exit_Button.fbx",
+    "blend_path": "exports/SEC_Access_Exit_Button.blend",
+    "tris_count": 164,
+    "mesh_count": 5,
+    "empty_count": 2,
+    "materials": [
+      "M_Security_Atlas",
+      "M_Metal",
+      "M_Emission"
+    ],
+    "moving_pivots": [
+      "Button_Pivot"
+    ],
+    "status": "SUCCESS"
+  }
+}
