@@ -1,0 +1,18 @@
+{
+  "SEC_Access_Key_Switch": {
+    "asset_name": "SEC_Access_Key_Switch",
+    "fbx_path": "exports/SEC_Access_Key_Switch.fbx",
+    "blend_path": "exports/SEC_Access_Key_Switch.blend",
+    "tris_count": 84,
+    "mesh_count": 3,
+    "empty_count": 2,
+    "materials": [
+      "M_Security_Atlas",
+      "M_Metal"
+    ],
+    "moving_pivots": [
+      "Key_Rotation_Pivot"
+    ],
+    "status": "SUCCESS"
+  }
+}
