@@ -1,0 +1,20 @@
+{
+  "SEC_Access_Intercom": {
+    "asset_name": "SEC_Access_Intercom",
+    "fbx_path": "exports/SEC_Access_Intercom.fbx",
+    "blend_path": "exports/SEC_Access_Intercom.blend",
+    "tris_count": 348,
+    "mesh_count": 6,
+    "empty_count": 2,
+    "materials": [
+      "M_Security_Atlas",
+      "M_Screen",
+      "M_Lens_Glass",
+      "M_Emission"
+    ],
+    "moving_pivots": [
+      "Button_Pivot"
+    ],
+    "status": "SUCCESS"
+  }
+}
