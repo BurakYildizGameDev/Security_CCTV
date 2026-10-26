@@ -1,0 +1,19 @@
+{
+  "SEC_Access_Bio_Terminal_Desktop": {
+    "asset_name": "SEC_Access_Bio_Terminal_Desktop",
+    "fbx_path": "exports/SEC_Access_Bio_Terminal_Desktop.fbx",
+    "blend_path": "exports/SEC_Access_Bio_Terminal_Desktop.blend",
+    "tris_count": 122,
+    "mesh_count": 4,
+    "empty_count": 2,
+    "materials": [
+      "M_Security_Atlas",
+      "M_Screen",
+      "M_Emission"
+    ],
+    "moving_pivots": [
+      "Tilt_Pivot"
+    ],
+    "status": "SUCCESS"
+  }
+}
