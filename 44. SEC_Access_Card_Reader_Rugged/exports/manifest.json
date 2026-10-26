@@ -1,0 +1,17 @@
+{
+  "SEC_Access_Card_Reader_Rugged": {
+    "asset_name": "SEC_Access_Card_Reader_Rugged",
+    "fbx_path": "exports/SEC_Access_Card_Reader_Rugged.fbx",
+    "blend_path": "exports/SEC_Access_Card_Reader_Rugged.blend",
+    "tris_count": 140,
+    "mesh_count": 5,
+    "empty_count": 1,
+    "materials": [
+      "M_Security_Atlas",
+      "M_Emission",
+      "M_Metal"
+    ],
+    "moving_pivots": [],
+    "status": "SUCCESS"
+  }
+}
