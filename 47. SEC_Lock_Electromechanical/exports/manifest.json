@@ -1,0 +1,13 @@
+{
+    "SEC_Lock_Electromechanical": {
+        "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\47. SEC_Lock_Electromechanical\\exports\\SEC_Lock_Electromechanical.fbx",
+        "tris": 168,
+        "mesh_count": 4,
+        "empty_count": 2,
+        "materials": [
+            "M_Metal",
+            "M_Security_Atlas"
+        ],
+        "status": "SUCCESS"
+    }
+}
