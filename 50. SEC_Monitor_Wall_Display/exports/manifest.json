@@ -1,0 +1,14 @@
+{
+    "SEC_Monitor_Wall_Display": {
+        "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\50. SEC_Monitor_Wall_Display\\exports\\SEC_Monitor_Wall_Display.fbx",
+        "tris": 314,
+        "mesh_count": 4,
+        "empty_count": 2,
+        "materials": [
+            "M_Security_Atlas",
+            "M_Screen",
+            "M_Metal"
+        ],
+        "status": "SUCCESS"
+    }
+}
