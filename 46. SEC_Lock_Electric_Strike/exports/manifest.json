@@ -1,0 +1,19 @@
+{
+    "asset_name": "SEC_Lock_Electric_Strike",
+    "category": "Electronic Hardware / Access Control Locks",
+    "description": "ANSI standard heavy-duty electric door strike with countersunk mounting screw pockets, latch guide ramp, and mortise casing",
+    "target_tris": 300,
+    "actual_tris": 174,
+    "meshes": [
+        "Keeper_Plate",
+        "Strike_Housing",
+        "Terminal_Cover"
+    ],
+    "materials": [
+        "M_Metal",
+        "M_Security_Atlas"
+    ],
+    "export_fbx": "exports/SEC_Lock_Electric_Strike.fbx",
+    "export_blend": "exports/SEC_Lock_Electric_Strike.blend",
+    "qa_status": "PASSED"
+}
