@@ -1,0 +1,13 @@
+{
+    "SEC_Lock_Door_Closer": {
+        "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\48. SEC_Lock_Door_Closer\\exports\\SEC_Lock_Door_Closer.fbx",
+        "tris": 184,
+        "mesh_count": 3,
+        "empty_count": 3,
+        "materials": [
+            "M_Metal",
+            "M_Security_Atlas"
+        ],
+        "status": "SUCCESS"
+    }
+}
