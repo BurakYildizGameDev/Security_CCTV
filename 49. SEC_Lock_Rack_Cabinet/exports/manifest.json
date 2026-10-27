@@ -1,0 +1,13 @@
+{
+    "SEC_Lock_Rack_Cabinet": {
+        "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\49. SEC_Lock_Rack_Cabinet\\exports\\SEC_Lock_Rack_Cabinet.fbx",
+        "tris": 346,
+        "mesh_count": 4,
+        "empty_count": 2,
+        "materials": [
+            "M_Metal",
+            "M_Security_Atlas"
+        ],
+        "status": "SUCCESS"
+    }
+}
