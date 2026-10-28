@@ -1,0 +1,16 @@
+{
+    "SEC_Console_Rack_Keyboard_Drawer": {
+        "status": "SUCCESS",
+        "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\53. SEC_Console_Rack_Keyboard_Drawer\\exports\\SEC_Console_Rack_Keyboard_Drawer.fbx",
+        "blend_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\53. SEC_Console_Rack_Keyboard_Drawer\\exports\\SEC_Console_Rack_Keyboard_Drawer.blend",
+        "total_tris": 144,
+        "max_tris": 620,
+        "mesh_count": 4,
+        "empty_count": 4,
+        "materials": [
+            "M_Metal",
+            "M_Rubber",
+            "M_Security_Atlas"
+        ]
+    }
+}
