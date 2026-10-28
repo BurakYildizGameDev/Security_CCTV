@@ -1,0 +1,15 @@
+{
+    "SEC_Monitor_Keyboard": {
+        "status": "SUCCESS",
+        "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\52. SEC_Monitor_Keyboard\\exports\\SEC_Monitor_Keyboard.fbx",
+        "blend_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\52. SEC_Monitor_Keyboard\\exports\\SEC_Monitor_Keyboard.blend",
+        "total_tris": 132,
+        "max_tris": 650,
+        "mesh_count": 6,
+        "empty_count": 6,
+        "materials": [
+            "M_Rubber",
+            "M_Security_Atlas"
+        ]
+    }
+}
