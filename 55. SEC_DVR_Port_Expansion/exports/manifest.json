@@ -1,0 +1,16 @@
+{
+    "SEC_DVR_Port_Expansion": {
+        "status": "SUCCESS",
+        "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\55. SEC_DVR_Port_Expansion\\exports\\SEC_DVR_Port_Expansion.fbx",
+        "blend_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\55. SEC_DVR_Port_Expansion\\exports\\SEC_DVR_Port_Expansion.blend",
+        "total_tris": 276,
+        "max_tris": 420,
+        "mesh_count": 4,
+        "empty_count": 1,
+        "materials": [
+            "M_Emission",
+            "M_Metal",
+            "M_Security_Atlas"
+        ]
+    }
+}
