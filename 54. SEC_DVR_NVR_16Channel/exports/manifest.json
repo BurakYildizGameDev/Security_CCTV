@@ -1,0 +1,17 @@
+{
+    "SEC_DVR_NVR_16Channel": {
+        "status": "SUCCESS",
+        "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\54. SEC_DVR_NVR_16Channel\\exports\\SEC_DVR_NVR_16Channel.fbx",
+        "blend_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\54. SEC_DVR_NVR_16Channel\\exports\\SEC_DVR_NVR_16Channel.blend",
+        "total_tris": 98,
+        "max_tris": 580,
+        "mesh_count": 6,
+        "empty_count": 2,
+        "materials": [
+            "M_Emission",
+            "M_Metal",
+            "M_Screen",
+            "M_Security_Atlas"
+        ]
+    }
+}
