@@ -1,0 +1,15 @@
+{
+    "SEC_Monitor_Small_Status": {
+        "status": "SUCCESS",
+        "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\51. SEC_Monitor_Small_Status\\exports\\SEC_Monitor_Small_Status.fbx",
+        "blend_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\51. SEC_Monitor_Small_Status\\exports\\SEC_Monitor_Small_Status.blend",
+        "total_tris": 158,
+        "max_tris": 280,
+        "mesh_count": 5,
+        "empty_count": 1,
+        "materials": [
+            "M_Screen",
+            "M_Security_Atlas"
+        ]
+    }
+}
