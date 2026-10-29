@@ -1,0 +1,15 @@
+{
+    "SEC_Network_Fiber_Patch_Panel": {
+        "status": "SUCCESS",
+        "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\58. SEC_Network_Fiber_Patch_Panel\\exports\\SEC_Network_Fiber_Patch_Panel.fbx",
+        "blend_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\58. SEC_Network_Fiber_Patch_Panel\\exports\\SEC_Network_Fiber_Patch_Panel.blend",
+        "total_tris": 372,
+        "max_tris": 480,
+        "mesh_count": 15,
+        "empty_count": 1,
+        "materials": [
+            "M_Metal",
+            "M_Security_Atlas"
+        ]
+    }
+}
