@@ -1,0 +1,16 @@
+{
+    "SEC_Network_Router_Industrial": {
+        "status": "SUCCESS",
+        "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\57. SEC_Network_Router_Industrial\\exports\\SEC_Network_Router_Industrial.fbx",
+        "blend_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\57. SEC_Network_Router_Industrial\\exports\\SEC_Network_Router_Industrial.blend",
+        "total_tris": 392,
+        "max_tris": 500,
+        "mesh_count": 7,
+        "empty_count": 5,
+        "materials": [
+            "M_Emission",
+            "M_Metal",
+            "M_Security_Atlas"
+        ]
+    }
+}
