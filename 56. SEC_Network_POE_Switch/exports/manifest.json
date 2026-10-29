@@ -1,0 +1,16 @@
+{
+    "SEC_Network_POE_Switch": {
+        "status": "SUCCESS",
+        "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\56. SEC_Network_POE_Switch\\exports\\SEC_Network_POE_Switch.fbx",
+        "blend_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\56. SEC_Network_POE_Switch\\exports\\SEC_Network_POE_Switch.blend",
+        "total_tris": 528,
+        "max_tris": 650,
+        "mesh_count": 51,
+        "empty_count": 1,
+        "materials": [
+            "M_Emission",
+            "M_Metal",
+            "M_Security_Atlas"
+        ]
+    }
+}
