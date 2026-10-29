@@ -1,0 +1,14 @@
+{
+    "SEC_Battery_Module": {
+        "asset_name": "SEC_Battery_Module",
+        "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\60. SEC_Battery_Module\\exports\\SEC_Battery_Module.fbx",
+        "tris_count": 132,
+        "mesh_count": 4,
+        "empty_count": 2,
+        "materials": [
+            "M_Security_Atlas",
+            "M_Metal"
+        ],
+        "status": "SUCCESS"
+    }
+}
