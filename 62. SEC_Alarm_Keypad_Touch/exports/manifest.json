@@ -1,0 +1,16 @@
+{
+    "SEC_Alarm_Keypad_Touch": {
+        "status": "SUCCESS",
+        "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\62. SEC_Alarm_Keypad_Touch\\exports\\SEC_Alarm_Keypad_Touch.fbx",
+        "blend_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\62. SEC_Alarm_Keypad_Touch\\exports\\SEC_Alarm_Keypad_Touch.blend",
+        "total_tris": 48,
+        "max_tris": 300,
+        "mesh_count": 4,
+        "empty_count": 1,
+        "materials": [
+            "M_Security_Atlas",
+            "M_Screen",
+            "M_Emission"
+        ]
+    }
+}
