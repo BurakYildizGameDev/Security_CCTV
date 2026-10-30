@@ -1,0 +1,16 @@
+{
+    "SEC_Alarm_Manual_Call_Point": {
+        "status": "SUCCESS",
+        "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\65. SEC_Alarm_Manual_Call_Point\\exports\\SEC_Alarm_Manual_Call_Point.fbx",
+        "blend_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\65. SEC_Alarm_Manual_Call_Point\\exports\\SEC_Alarm_Manual_Call_Point.blend",
+        "total_tris": 96,
+        "max_tris": 300,
+        "mesh_count": 4,
+        "empty_count": 2,
+        "materials": [
+            "M_Security_Atlas",
+            "M_Transparent",
+            "M_Emission"
+        ]
+    }
+}
