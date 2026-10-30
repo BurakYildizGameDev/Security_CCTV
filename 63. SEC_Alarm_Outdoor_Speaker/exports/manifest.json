@@ -1,0 +1,15 @@
+{
+    "SEC_Alarm_Outdoor_Speaker": {
+        "status": "SUCCESS",
+        "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\63. SEC_Alarm_Outdoor_Speaker\\exports\\SEC_Alarm_Outdoor_Speaker.fbx",
+        "blend_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\63. SEC_Alarm_Outdoor_Speaker\\exports\\SEC_Alarm_Outdoor_Speaker.blend",
+        "total_tris": 400,
+        "max_tris": 420,
+        "mesh_count": 4,
+        "empty_count": 2,
+        "materials": [
+            "M_Security_Atlas",
+            "M_Metal"
+        ]
+    }
+}
