@@ -1,0 +1,16 @@
+{
+    "SEC_Alarm_Strobe_Light": {
+        "status": "SUCCESS",
+        "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\64. SEC_Alarm_Strobe_Light\\exports\\SEC_Alarm_Strobe_Light.fbx",
+        "blend_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\64. SEC_Alarm_Strobe_Light\\exports\\SEC_Alarm_Strobe_Light.blend",
+        "total_tris": 260,
+        "max_tris": 280,
+        "mesh_count": 5,
+        "empty_count": 1,
+        "materials": [
+            "M_Security_Atlas",
+            "M_Transparent",
+            "M_Emission"
+        ]
+    }
+}
