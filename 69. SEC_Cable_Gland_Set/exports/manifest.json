@@ -1,0 +1,12 @@
+{
+  "asset_name": "SEC_Cable_Gland_Set",
+  "fbx_path": "exports/SEC_Cable_Gland_Set.fbx",
+  "triangles": 5868,
+  "mesh_count": 3,
+  "empty_count": 1,
+  "materials": [
+    "M_Metal",
+    "M_Rubber"
+  ],
+  "status": "SUCCESS"
+}
