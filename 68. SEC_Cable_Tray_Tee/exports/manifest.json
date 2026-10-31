@@ -1,0 +1,19 @@
+{
+  "asset_name": "SEC_Cable_Tray_Tee",
+  "fbx_path": "SEC_Cable_Tray_Tee.fbx",
+  "blend_path": "SEC_Cable_Tray_Tee.blend",
+  "triangles": 122,
+  "mesh_count": 3,
+  "empty_count": 1,
+  "materials": [
+    "M_Metal"
+  ],
+  "dimensions_meters": {
+    "main_width": 0.2,
+    "main_length": 0.6,
+    "branch_width": 0.2,
+    "branch_length": 0.3,
+    "height": 0.05
+  },
+  "status": "SUCCESS"
+}
