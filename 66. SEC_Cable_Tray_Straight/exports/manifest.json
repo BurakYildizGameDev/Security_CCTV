@@ -1,0 +1,17 @@
+{
+  "asset_name": "SEC_Cable_Tray_Straight",
+  "fbx_path": "SEC_Cable_Tray_Straight.fbx",
+  "blend_path": "SEC_Cable_Tray_Straight.blend",
+  "triangles": 92,
+  "mesh_count": 3,
+  "empty_count": 1,
+  "materials": [
+    "M_Metal"
+  ],
+  "dimensions_meters": {
+    "width": 0.2,
+    "height": 0.05,
+    "length": 1.0
+  },
+  "status": "SUCCESS"
+}
