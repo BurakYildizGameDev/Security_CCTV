@@ -1,0 +1,12 @@
+{
+  "asset_name": "SEC_Cable_Reel",
+  "fbx_path": "exports/SEC_Cable_Reel.fbx",
+  "triangles": 3344,
+  "mesh_count": 6,
+  "empty_count": 2,
+  "materials": [
+    "M_Metal",
+    "M_Rubber"
+  ],
+  "status": "SUCCESS"
+}
