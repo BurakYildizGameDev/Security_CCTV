@@ -1,0 +1,18 @@
+{
+  "asset_name": "SEC_Cable_Tray_Elbow",
+  "fbx_path": "SEC_Cable_Tray_Elbow.fbx",
+  "blend_path": "SEC_Cable_Tray_Elbow.blend",
+  "triangles": 252,
+  "mesh_count": 2,
+  "empty_count": 1,
+  "materials": [
+    "M_Metal"
+  ],
+  "dimensions_meters": {
+    "inner_radius": 0.15,
+    "outer_radius": 0.35,
+    "width": 0.2,
+    "height": 0.05
+  },
+  "status": "SUCCESS"
+}
