@@ -1,0 +1,13 @@
+{
+  "asset_name": "SEC_Cable_Connector_Set",
+  "fbx_path": "exports/SEC_Cable_Connector_Set.fbx",
+  "triangles": 1488,
+  "mesh_count": 3,
+  "empty_count": 1,
+  "materials": [
+    "M_Metal",
+    "M_Rubber",
+    "M_Security_Atlas"
+  ],
+  "status": "SUCCESS"
+}
