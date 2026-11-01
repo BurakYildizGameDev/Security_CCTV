@@ -1,0 +1,15 @@
+{
+  "SEC_Server_Rack_Fan": {
+    "asset_name": "SEC_Server_Rack_Fan",
+    "fbx_path": "exports/SEC_Server_Rack_Fan.fbx",
+    "blend_path": "exports/SEC_Server_Rack_Fan.blend",
+    "tris_count": 366,
+    "mesh_count": 7,
+    "empty_count": 2,
+    "materials": [
+      "M_Metal",
+      "M_Security_Atlas"
+    ],
+    "status": "SUCCESS"
+  }
+}
