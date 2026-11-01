@@ -1,0 +1,753 @@
+================================================================================
+SECURITY & CCTV ASSET PACK - 01-75 TOPLU KALİTE GÜVENCE (QA) DOĞRULAMA RAPORU
+================================================================================
+Tarih/Saat         : 2026-11-01 18:55:10
+Blender Versiyonu  : 5.2.0 LTS
+Toplam Varlık      : 75 / 75
+Başarılı (SUCCESS) : 75
+Başarısız (FAILED) : 0
+Toplam Poligon     : 35,773 Üçgen (Tris)
+Toplam Mesh Objesi : 415 Parça
+Toplam Empty Objesi: 129 Pivot
+Genel QA Sonucu    : %100 BAŞARILI (SUCCESS)
+--------------------------------------------------------------------------------
+
+ÖZEL STANDART VE ŞARTNAME DENETİMLERİ:
+1. Unity FBX Eksen Standartları:
+   - Eksen Ayarları: Forward = -Z, Up = Y (Unity Native uyumlu)
+   - Transform Ölçekleri: Tüm 75 varlığın Root Transform ölçeği (1.0, 1.0, 1.0) olarak doğrulandı.
+   - Pivot Konumları: Tüm kök nesneleri (0,0,0) montaj/ürün referans merkezinde.
+2. Boru ve Tesisat Denetimi (SEC_Conduit_Straight_2m):
+   - Uzunluk Doğrulaması: 2.000 metre (Hata payı: 0.000m, DOĞRULANDI)
+3. UV Haritalama ve Materyaller:
+   - Tüm 75 varlığın her bir alt mesh'inde en az 1 UV katmanı mevcuttur.
+   - Tüm materyaller standart Security CCTV paletine ('M_Security_Atlas', 'M_Metal', 'M_Rubber', vb.) bağlıdır.
+4. Hareketli Varlık Pivotları:
+   - Kameralar (PTZ, Dome, Bullet, Armored vb.), paneller, tuşlar, acil butonlar ve fan rotorları
+     için atanmış tüm hareket pivotları doğru rotasyon merkezlerinde bulunmaktadır.
+
+================================================================================
+No   | Varlık Adı                          | Tris   | Limit  | M   | E   | Durum   
+--------------------------------------------------------------------------------
+01   | SEC_Camera_PTZ_Industrial           | 724    | 800    | 5   | 2   | SUCCESS 
+02   | SEC_Camera_Dome_Ceiling             | 466    | 500    | 6   | 1   | SUCCESS 
+03   | SEC_Camera_Box_Wall                 | 394    | 450    | 5   | 1   | SUCCESS 
+04   | SEC_Sensor_PIR_Motion               | 132    | 220    | 4   | 0   | SUCCESS 
+05   | SEC_Sensor_Smoke_Fire               | 232    | 250    | 4   | 0   | SUCCESS 
+06   | SEC_Laser_Barrier_Emitter           | 242    | 300    | 4   | 1   | SUCCESS 
+07   | SEC_Laser_Barrier_Receiver          | 270    | 300    | 4   | 1   | SUCCESS 
+08   | SEC_Keypad_Access_Panel             | 486    | 550    | 16  | 12  | SUCCESS 
+09   | SEC_RFID_Card_Reader                | 192    | 280    | 4   | 1   | SUCCESS 
+10   | SEC_Biometric_Fingerprint_Reader    | 268    | 350    | 5   | 1   | SUCCESS 
+11   | SEC_Emergency_Break_Glass           | 238    | 250    | 4   | 1   | SUCCESS 
+12   | SEC_Emergency_Stop_Mushroom         | 254    | 300    | 3   | 2   | SUCCESS 
+13   | SEC_Industrial_Toggle_Switch        | 264    | 280    | 3   | 2   | SUCCESS 
+14   | SEC_Magnetic_Door_Lock              | 310    | 350    | 3   | 2   | SUCCESS 
+15   | SEC_Monitor_CRT_90s                 | 521    | 650    | 5   | 1   | SUCCESS 
+16   | SEC_Monitor_CCTV_Quad_LCD           | 424    | 500    | 7   | 2   | SUCCESS 
+17   | SEC_Rack_DVR_Recorder               | 227    | 500    | 6   | 1   | SUCCESS 
+18   | SEC_Console_Camera_Joystick         | 506    | 600    | 6   | 2   | SUCCESS 
+19   | SEC_Alarm_Siren_Beacon              | 194    | 350    | 5   | 1   | SUCCESS 
+20   | SEC_UPS_Power_Supply                | 240    | 450    | 5   | 1   | SUCCESS 
+21   | SEC_Conduit_Straight_2m             | 128    | 128    | 3   | 1   | SUCCESS 
+22   | SEC_Conduit_Corner_90               | 1548   | 1600   | 3   | 1   | SUCCESS 
+23   | SEC_Conduit_Junction_T              | 690    | 750    | 5   | 1   | SUCCESS 
+24   | SEC_Ceiling_Conduit_Clamp           | 364    | 400    | 4   | 1   | SUCCESS 
+25   | SEC_Hanging_Industrial_Cable_Bundle | 498    | 500    | 11  | 1   | SUCCESS 
+26   | SEC_Camera_Bullet_Outdoor           | 486    | 520    | 5   | 2   | SUCCESS 
+27   | SEC_Camera_Fisheye_360              | 288    | 320    | 3   | 1   | SUCCESS 
+28   | SEC_Camera_Thermal                  | 438    | 480    | 3   | 2   | SUCCESS 
+29   | SEC_Camera_LPR                      | 510    | 600    | 4   | 2   | SUCCESS 
+30   | SEC_Camera_Mini_Dome                | 291    | 300    | 4   | 2   | SUCCESS 
+31   | SEC_Camera_Corner_Mount             | 394    | 450    | 3   | 2   | SUCCESS 
+32   | SEC_Camera_Concealed_Smoke          | 214    | 280    | 4   | 1   | SUCCESS 
+33   | SEC_Camera_Armored                  | 570    | 620    | 4   | 2   | SUCCESS 
+34   | SEC_Sensor_Glass_Break              | 172    | 240    | 4   | 1   | SUCCESS 
+35   | SEC_Sensor_Door_Contact             | 176    | 180    | 8   | 2   | SUCCESS 
+36   | SEC_Sensor_Vibration                | 216    | 220    | 10  | 1   | SUCCESS 
+37   | SEC_Sensor_Ultrasonic               | 176    | 260    | 4   | 1   | SUCCESS 
+38   | SEC_Sensor_Gas                      | 224    | 260    | 6   | 1   | SUCCESS 
+39   | SEC_Beam_Detector_Dual              | 256    | 340    | 5   | 2   | SUCCESS 
+40   | SEC_Access_Turnstile_Reader         | 264    | 300    | 4   | 1   | SUCCESS 
+41   | SEC_Access_Intercom                 | 348    | 420    | 6   | 2   | SUCCESS 
+42   | SEC_Access_Exit_Button              | 164    | 180    | 5   | 2   | SUCCESS 
+43   | SEC_Access_Key_Switch               | 84     | 240    | 3   | 2   | SUCCESS 
+44   | SEC_Access_Card_Reader_Rugged       | 140    | 340    | 5   | 1   | SUCCESS 
+45   | SEC_Access_Bio_Terminal_Desktop     | 122    | 400    | 4   | 2   | SUCCESS 
+46   | SEC_Lock_Electric_Strike            | 174    | 300    | 3   | 1   | SUCCESS 
+47   | SEC_Lock_Electromechanical          | 168    | 320    | 4   | 2   | SUCCESS 
+48   | SEC_Lock_Door_Closer                | 184    | 420    | 3   | 3   | SUCCESS 
+49   | SEC_Lock_Rack_Cabinet               | 346    | 850    | 4   | 2   | SUCCESS 
+50   | SEC_Monitor_Wall_Display            | 314    | 500    | 4   | 2   | SUCCESS 
+51   | SEC_Monitor_Small_Status            | 158    | 280    | 5   | 1   | SUCCESS 
+52   | SEC_Monitor_Keyboard                | 132    | 650    | 6   | 6   | SUCCESS 
+53   | SEC_Console_Rack_Keyboard_Drawer    | 144    | 620    | 4   | 4   | SUCCESS 
+54   | SEC_DVR_NVR_16Channel               | 98     | 580    | 6   | 2   | SUCCESS 
+55   | SEC_DVR_Port_Expansion              | 276    | 420    | 4   | 1   | SUCCESS 
+56   | SEC_Network_POE_Switch              | 528    | 650    | 51  | 1   | SUCCESS 
+57   | SEC_Network_Router_Industrial       | 392    | 500    | 7   | 5   | SUCCESS 
+58   | SEC_Network_Fiber_Patch_Panel       | 372    | 480    | 15  | 1   | SUCCESS 
+59   | SEC_Power_Distribution_Unit         | 138    | 430    | 11  | 2   | SUCCESS 
+60   | SEC_Battery_Module                  | 132    | 360    | 4   | 2   | SUCCESS 
+61   | SEC_Alarm_Control_Panel             | 438    | 600    | 5   | 2   | SUCCESS 
+62   | SEC_Alarm_Keypad_Touch              | 48     | 300    | 4   | 1   | SUCCESS 
+63   | SEC_Alarm_Outdoor_Speaker           | 400    | 420    | 4   | 2   | SUCCESS 
+64   | SEC_Alarm_Strobe_Light              | 260    | 280    | 5   | 1   | SUCCESS 
+65   | SEC_Alarm_Manual_Call_Point         | 96     | 300    | 4   | 2   | SUCCESS 
+66   | SEC_Cable_Tray_Straight             | 92     | 220    | 3   | 1   | SUCCESS 
+67   | SEC_Cable_Tray_Elbow                | 252    | 360    | 2   | 1   | SUCCESS 
+68   | SEC_Cable_Tray_Tee                  | 122    | 380    | 3   | 1   | SUCCESS 
+69   | SEC_Cable_Gland_Set                 | 5868   | 6000   | 3   | 1   | SUCCESS 
+70   | SEC_Cable_Reel                      | 3344   | 3500   | 6   | 2   | SUCCESS 
+71   | SEC_Cable_Connector_Set             | 1488   | 1500   | 3   | 1   | SUCCESS 
+72   | SEC_Conduit_Wall_Clamp              | 1588   | 1600   | 4   | 2   | SUCCESS 
+73   | SEC_Conduit_Flexible_Hose           | 2264   | 2300   | 3   | 1   | SUCCESS 
+74   | SEC_Ceiling_Cable_Drop              | 246    | 260    | 4   | 2   | SUCCESS 
+75   | SEC_Server_Rack_Fan                 | 366    | 380    | 7   | 2   | SUCCESS 
+================================================================================
+
+DETAYLI VARLIK ANALİZİ VE BULGULAR:
+[01] SEC_Camera_PTZ_Industrial:
+  - Klasör: 01. SEC_Camera_PTZ_Industrial
+  - FBX Boyutu: 45,644 bytes
+  - Geometri: 724 tris (Bütçe: 800 tris) -> %90.5 bütçe kullanımı
+  - Parçalar: 5 Mesh, 2 Empty
+  - Materyaller: M_Emission, M_Lens_Glass, M_Metal, M_Security_Atlas
+  - Hareketli Pivotlar: Swivel_Y_Pivot, Tilt_X_Pivot
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[02] SEC_Camera_Dome_Ceiling:
+  - Klasör: 02. SEC_Camera_Dome_Ceiling
+  - FBX Boyutu: 44,764 bytes
+  - Geometri: 466 tris (Bütçe: 500 tris) -> %93.2 bütçe kullanımı
+  - Parçalar: 6 Mesh, 1 Empty
+  - Materyaller: M_Emission, M_Lens_Glass, M_Security_Atlas, M_Transparent
+  - Hareketli Pivotlar: Camera_Module_Pivot
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[03] SEC_Camera_Box_Wall:
+  - Klasör: 03. SEC_Camera_Box_Wall
+  - FBX Boyutu: 37,788 bytes
+  - Geometri: 394 tris (Bütçe: 450 tris) -> %87.6 bütçe kullanımı
+  - Parçalar: 5 Mesh, 1 Empty
+  - Materyaller: M_Lens_Glass, M_Metal, M_Security_Atlas
+  - Hareketli Pivotlar: Bracket_Pivot
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[04] SEC_Sensor_PIR_Motion:
+  - Klasör: 04. SEC_Sensor_PIR_Motion
+  - FBX Boyutu: 31,196 bytes
+  - Geometri: 132 tris (Bütçe: 220 tris) -> %60.0 bütçe kullanımı
+  - Parçalar: 4 Mesh, 0 Empty
+  - Materyaller: M_Emission, M_Security_Atlas, M_Transparent
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[05] SEC_Sensor_Smoke_Fire:
+  - Klasör: 05. SEC_Sensor_Smoke_Fire
+  - FBX Boyutu: 31,868 bytes
+  - Geometri: 232 tris (Bütçe: 250 tris) -> %92.8 bütçe kullanımı
+  - Parçalar: 4 Mesh, 0 Empty
+  - Materyaller: M_Emission, M_Security_Atlas
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[06] SEC_Laser_Barrier_Emitter:
+  - Klasör: 06. SEC_Laser_Barrier_Emitter
+  - FBX Boyutu: 34,220 bytes
+  - Geometri: 242 tris (Bütçe: 300 tris) -> %80.7 bütçe kullanımı
+  - Parçalar: 4 Mesh, 1 Empty
+  - Materyaller: M_Emission, M_Lens_Glass, M_Security_Atlas
+  - Hareketli Pivotlar: Aim_Pivot
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[07] SEC_Laser_Barrier_Receiver:
+  - Klasör: 07. SEC_Laser_Barrier_Receiver
+  - FBX Boyutu: 34,796 bytes
+  - Geometri: 270 tris (Bütçe: 300 tris) -> %90.0 bütçe kullanımı
+  - Parçalar: 4 Mesh, 1 Empty
+  - Materyaller: M_Emission, M_Lens_Glass, M_Security_Atlas
+  - Hareketli Pivotlar: Aim_Pivot
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[08] SEC_Keypad_Access_Panel:
+  - Klasör: 08.SEC_Keypad_Access_Panel
+  - FBX Boyutu: 79,964 bytes
+  - Geometri: 486 tris (Bütçe: 550 tris) -> %88.4 bütçe kullanımı
+  - Parçalar: 16 Mesh, 12 Empty
+  - Materyaller: M_Emission, M_Screen, M_Security_Atlas
+  - Hareketli Pivotlar: Pivot_Key_0, Pivot_Key_1, Pivot_Key_2, Pivot_Key_3, Pivot_Key_4, Pivot_Key_5, Pivot_Key_6, Pivot_Key_7, Pivot_Key_8, Pivot_Key_9, Pivot_Key_Clear, Pivot_Key_Enter
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[09] SEC_RFID_Card_Reader:
+  - Klasör: 09. SEC_RFID_Card_Reader
+  - FBX Boyutu: 33,548 bytes
+  - Geometri: 192 tris (Bütçe: 280 tris) -> %68.6 bütçe kullanımı
+  - Parçalar: 4 Mesh, 1 Empty
+  - Materyaller: M_Emission, M_Security_Atlas
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[10] SEC_Biometric_Fingerprint_Reader:
+  - Klasör: 10. SEC_Biometric_Fingerprint_Reader
+  - FBX Boyutu: 40,092 bytes
+  - Geometri: 268 tris (Bütçe: 350 tris) -> %76.6 bütçe kullanımı
+  - Parçalar: 5 Mesh, 1 Empty
+  - Materyaller: M_Emission, M_Screen, M_Security_Atlas
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[11] SEC_Emergency_Break_Glass:
+  - Klasör: 11. SEC_Emergency_Break_Glass
+  - FBX Boyutu: 36,508 bytes
+  - Geometri: 238 tris (Bütçe: 250 tris) -> %95.2 bütçe kullanımı
+  - Parçalar: 4 Mesh, 1 Empty
+  - Materyaller: M_Emission, M_Security_Atlas, M_Transparent
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[12] SEC_Emergency_Stop_Mushroom:
+  - Klasör: 12. SEC_Emergency_Stop_Mushroom
+  - FBX Boyutu: 32,508 bytes
+  - Geometri: 254 tris (Bütçe: 300 tris) -> %84.7 bütçe kullanımı
+  - Parçalar: 3 Mesh, 2 Empty
+  - Materyaller: M_Emission, M_Security_Atlas
+  - Hareketli Pivotlar: Button_Pivot
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[13] SEC_Industrial_Toggle_Switch:
+  - Klasör: 13. SEC_Industrial_Toggle_Switch
+  - FBX Boyutu: 31,692 bytes
+  - Geometri: 264 tris (Bütçe: 280 tris) -> %94.3 bütçe kullanımı
+  - Parçalar: 3 Mesh, 2 Empty
+  - Materyaller: M_Metal, M_Security_Atlas
+  - Hareketli Pivotlar: Toggle_Pivot
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[14] SEC_Magnetic_Door_Lock:
+  - Klasör: 14. SEC_Magnetic_Door_Lock
+  - FBX Boyutu: 30,940 bytes
+  - Geometri: 310 tris (Bütçe: 350 tris) -> %88.6 bütçe kullanımı
+  - Parçalar: 3 Mesh, 2 Empty
+  - Materyaller: M_Metal, M_Security_Atlas
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[15] SEC_Monitor_CRT_90s:
+  - Klasör: 15. SEC_Monitor_CRT_90s
+  - FBX Boyutu: 40,956 bytes
+  - Geometri: 521 tris (Bütçe: 650 tris) -> %80.2 bütçe kullanımı
+  - Parçalar: 5 Mesh, 1 Empty
+  - Materyaller: M_Metal, M_Screen, M_Security_Atlas
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[16] SEC_Monitor_CCTV_Quad_LCD:
+  - Klasör: 16. SEC_Monitor_CCTV_Quad_LCD
+  - FBX Boyutu: 45,932 bytes
+  - Geometri: 424 tris (Bütçe: 500 tris) -> %84.8 bütçe kullanımı
+  - Parçalar: 7 Mesh, 2 Empty
+  - Materyaller: M_Metal, M_Screen, M_Security_Atlas
+  - Hareketli Pivotlar: Display_Tilt_Pivot
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[17] SEC_Rack_DVR_Recorder:
+  - Klasör: 17. SEC_Rack_DVR_Recorder
+  - FBX Boyutu: 40,540 bytes
+  - Geometri: 227 tris (Bütçe: 500 tris) -> %45.4 bütçe kullanımı
+  - Parçalar: 6 Mesh, 1 Empty
+  - Materyaller: M_Emission, M_Metal, M_Screen, M_Security_Atlas
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[18] SEC_Console_Camera_Joystick:
+  - Klasör: 18. SEC_Console_Camera_Joystick
+  - FBX Boyutu: 45,596 bytes
+  - Geometri: 506 tris (Bütçe: 600 tris) -> %84.3 bütçe kullanımı
+  - Parçalar: 6 Mesh, 2 Empty
+  - Materyaller: M_Emission, M_Screen, M_Security_Atlas
+  - Hareketli Pivotlar: Joystick_Pivot
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[19] SEC_Alarm_Siren_Beacon:
+  - Klasör: 19. SEC_Alarm_Siren_Beacon
+  - FBX Boyutu: 34,892 bytes
+  - Geometri: 194 tris (Bütçe: 350 tris) -> %55.4 bütçe kullanımı
+  - Parçalar: 5 Mesh, 1 Empty
+  - Materyaller: M_Emission, M_Security_Atlas, M_Transparent
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[20] SEC_UPS_Power_Supply:
+  - Klasör: 20. SEC_UPS_Power_Supply
+  - FBX Boyutu: 37,356 bytes
+  - Geometri: 240 tris (Bütçe: 450 tris) -> %53.3 bütçe kullanımı
+  - Parçalar: 5 Mesh, 1 Empty
+  - Materyaller: M_Emission, M_Metal, M_Screen, M_Security_Atlas
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[21] SEC_Conduit_Straight_2m:
+  - Klasör: 21. SEC_Conduit_Straight_2m
+  - FBX Boyutu: 25,644 bytes
+  - Geometri: 128 tris (Bütçe: 128 tris) -> %100.0 bütçe kullanımı
+  - Parçalar: 3 Mesh, 1 Empty
+  - Materyaller: M_Metal
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[22] SEC_Conduit_Corner_90:
+  - Klasör: 22. SEC_Conduit_Corner_90
+  - FBX Boyutu: 51,980 bytes
+  - Geometri: 1548 tris (Bütçe: 1600 tris) -> %96.8 bütçe kullanımı
+  - Parçalar: 3 Mesh, 1 Empty
+  - Materyaller: M_Metal
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[23] SEC_Conduit_Junction_T:
+  - Klasör: 23. SEC_Conduit_Junction_T
+  - FBX Boyutu: 41,420 bytes
+  - Geometri: 690 tris (Bütçe: 750 tris) -> %92.0 bütçe kullanımı
+  - Parçalar: 5 Mesh, 1 Empty
+  - Materyaller: M_Metal
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[24] SEC_Ceiling_Conduit_Clamp:
+  - Klasör: 24. SEC_Ceiling_Conduit_Clamp
+  - FBX Boyutu: 32,316 bytes
+  - Geometri: 364 tris (Bütçe: 400 tris) -> %91.0 bütçe kullanımı
+  - Parçalar: 4 Mesh, 1 Empty
+  - Materyaller: M_Metal
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[25] SEC_Hanging_Industrial_Cable_Bundle:
+  - Klasör: 25. SEC_Hanging_Industrial_Cable_Bundle
+  - FBX Boyutu: 56,604 bytes
+  - Geometri: 498 tris (Bütçe: 500 tris) -> %99.6 bütçe kullanımı
+  - Parçalar: 11 Mesh, 1 Empty
+  - Materyaller: M_Metal, M_Security_Atlas
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[26] SEC_Camera_Bullet_Outdoor:
+  - Klasör: 26. SEC_Camera_Bullet_Outdoor
+  - FBX Boyutu: 42,812 bytes
+  - Geometri: 486 tris (Bütçe: 520 tris) -> %93.5 bütçe kullanımı
+  - Parçalar: 5 Mesh, 2 Empty
+  - Materyaller: M_Emission, M_Lens_Glass, M_Security_Atlas
+  - Hareketli Pivotlar: Aim_Pivot
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[27] SEC_Camera_Fisheye_360:
+  - Klasör: 27. SEC_Camera_Fisheye_360
+  - FBX Boyutu: 32,156 bytes
+  - Geometri: 288 tris (Bütçe: 320 tris) -> %90.0 bütçe kullanımı
+  - Parçalar: 3 Mesh, 1 Empty
+  - Materyaller: M_Lens_Glass, M_Security_Atlas
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[28] SEC_Camera_Thermal:
+  - Klasör: 28. SEC_Camera_Thermal
+  - FBX Boyutu: 35,756 bytes
+  - Geometri: 438 tris (Bütçe: 480 tris) -> %91.2 bütçe kullanımı
+  - Parçalar: 3 Mesh, 2 Empty
+  - Materyaller: M_Lens_Glass, M_Metal, M_Security_Atlas
+  - Hareketli Pivotlar: Aim_Pivot
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[29] SEC_Camera_LPR:
+  - Klasör: 29. SEC_Camera_LPR
+  - FBX Boyutu: 39,756 bytes
+  - Geometri: 510 tris (Bütçe: 600 tris) -> %85.0 bütçe kullanımı
+  - Parçalar: 4 Mesh, 2 Empty
+  - Materyaller: M_Emission, M_Lens_Glass, M_Security_Atlas
+  - Hareketli Pivotlar: Aim_Pivot
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[30] SEC_Camera_Mini_Dome:
+  - Klasör: 30. SEC_Camera_Mini_Dome
+  - FBX Boyutu: 37,292 bytes
+  - Geometri: 291 tris (Bütçe: 300 tris) -> %97.0 bütçe kullanımı
+  - Parçalar: 4 Mesh, 2 Empty
+  - Materyaller: M_Lens_Glass, M_Security_Atlas, M_Transparent
+  - Hareketli Pivotlar: Camera_Module_Pivot
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[31] SEC_Camera_Corner_Mount:
+  - Klasör: 31. SEC_Camera_Corner_Mount
+  - FBX Boyutu: 34,620 bytes
+  - Geometri: 394 tris (Bütçe: 450 tris) -> %87.6 bütçe kullanımı
+  - Parçalar: 3 Mesh, 2 Empty
+  - Materyaller: M_Lens_Glass, M_Metal, M_Security_Atlas
+  - Hareketli Pivotlar: Aim_Pivot
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[32] SEC_Camera_Concealed_Smoke:
+  - Klasör: 32. SEC_Camera_Concealed_Smoke
+  - FBX Boyutu: 33,100 bytes
+  - Geometri: 214 tris (Bütçe: 280 tris) -> %76.4 bütçe kullanımı
+  - Parçalar: 4 Mesh, 1 Empty
+  - Materyaller: M_Lens_Glass, M_Security_Atlas
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[33] SEC_Camera_Armored:
+  - Klasör: 33. SEC_Camera_Armored
+  - FBX Boyutu: 38,572 bytes
+  - Geometri: 570 tris (Bütçe: 620 tris) -> %91.9 bütçe kullanımı
+  - Parçalar: 4 Mesh, 2 Empty
+  - Materyaller: M_Lens_Glass, M_Metal, M_Security_Atlas
+  - Hareketli Pivotlar: Aim_Pivot
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[34] SEC_Sensor_Glass_Break:
+  - Klasör: 34. SEC_Sensor_Glass_Break
+  - FBX Boyutu: 30,892 bytes
+  - Geometri: 172 tris (Bütçe: 240 tris) -> %71.7 bütçe kullanımı
+  - Parçalar: 4 Mesh, 1 Empty
+  - Materyaller: M_Emission, M_Security_Atlas
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[35] SEC_Sensor_Door_Contact:
+  - Klasör: 35. SEC_Sensor_Door_Contact
+  - FBX Boyutu: 39,868 bytes
+  - Geometri: 176 tris (Bütçe: 180 tris) -> %97.8 bütçe kullanımı
+  - Parçalar: 8 Mesh, 2 Empty
+  - Materyaller: M_Metal, M_Security_Atlas
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[36] SEC_Sensor_Vibration:
+  - Klasör: 36. SEC_Sensor_Vibration
+  - FBX Boyutu: 44,028 bytes
+  - Geometri: 216 tris (Bütçe: 220 tris) -> %98.2 bütçe kullanımı
+  - Parçalar: 10 Mesh, 1 Empty
+  - Materyaller: M_Metal, M_Security_Atlas
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[37] SEC_Sensor_Ultrasonic:
+  - Klasör: 37. SEC_Sensor_Ultrasonic
+  - FBX Boyutu: 31,788 bytes
+  - Geometri: 176 tris (Bütçe: 260 tris) -> %67.7 bütçe kullanımı
+  - Parçalar: 4 Mesh, 1 Empty
+  - Materyaller: M_Emission, M_Security_Atlas
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[38] SEC_Sensor_Gas:
+  - Klasör: 38. SEC_Sensor_Gas
+  - FBX Boyutu: 38,204 bytes
+  - Geometri: 224 tris (Bütçe: 260 tris) -> %86.2 bütçe kullanımı
+  - Parçalar: 6 Mesh, 1 Empty
+  - Materyaller: M_Emission, M_Metal, M_Security_Atlas
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[39] SEC_Beam_Detector_Dual:
+  - Klasör: 39. SEC_Beam_Detector_Dual
+  - FBX Boyutu: 38,460 bytes
+  - Geometri: 256 tris (Bütçe: 340 tris) -> %75.3 bütçe kullanımı
+  - Parçalar: 5 Mesh, 2 Empty
+  - Materyaller: M_Emission, M_Lens_Glass, M_Security_Atlas
+  - Hareketli Pivotlar: Aim_Pivot
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[40] SEC_Access_Turnstile_Reader:
+  - Klasör: 40. SEC_Access_Turnstile_Reader
+  - FBX Boyutu: 34,924 bytes
+  - Geometri: 264 tris (Bütçe: 300 tris) -> %88.0 bütçe kullanımı
+  - Parçalar: 4 Mesh, 1 Empty
+  - Materyaller: M_Emission, M_Metal, M_Security_Atlas
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[41] SEC_Access_Intercom:
+  - Klasör: 41. SEC_Access_Intercom
+  - FBX Boyutu: 45,212 bytes
+  - Geometri: 348 tris (Bütçe: 420 tris) -> %82.9 bütçe kullanımı
+  - Parçalar: 6 Mesh, 2 Empty
+  - Materyaller: M_Emission, M_Lens_Glass, M_Screen, M_Security_Atlas
+  - Hareketli Pivotlar: Button_Pivot
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[42] SEC_Access_Exit_Button:
+  - Klasör: 42. SEC_Access_Exit_Button
+  - FBX Boyutu: 36,220 bytes
+  - Geometri: 164 tris (Bütçe: 180 tris) -> %91.1 bütçe kullanımı
+  - Parçalar: 5 Mesh, 2 Empty
+  - Materyaller: M_Emission, M_Metal, M_Security_Atlas
+  - Hareketli Pivotlar: Button_Pivot
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[43] SEC_Access_Key_Switch:
+  - Klasör: 43. SEC_Access_Key_Switch
+  - FBX Boyutu: 28,284 bytes
+  - Geometri: 84 tris (Bütçe: 240 tris) -> %35.0 bütçe kullanımı
+  - Parçalar: 3 Mesh, 2 Empty
+  - Materyaller: M_Metal, M_Security_Atlas
+  - Hareketli Pivotlar: Key_Rotation_Pivot
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[44] SEC_Access_Card_Reader_Rugged:
+  - Klasör: 44. SEC_Access_Card_Reader_Rugged
+  - FBX Boyutu: 34,732 bytes
+  - Geometri: 140 tris (Bütçe: 340 tris) -> %41.2 bütçe kullanımı
+  - Parçalar: 5 Mesh, 1 Empty
+  - Materyaller: M_Emission, M_Emission.001, M_Emission.002, M_Metal, M_Security_Atlas
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[45] SEC_Access_Bio_Terminal_Desktop:
+  - Klasör: 45. SEC_Access_Bio_Terminal_Desktop
+  - FBX Boyutu: 34,796 bytes
+  - Geometri: 122 tris (Bütçe: 400 tris) -> %30.5 bütçe kullanımı
+  - Parçalar: 4 Mesh, 2 Empty
+  - Materyaller: M_Emission, M_Screen, M_Security_Atlas
+  - Hareketli Pivotlar: Tilt_Pivot
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[46] SEC_Lock_Electric_Strike:
+  - Klasör: 46. SEC_Lock_Electric_Strike
+  - FBX Boyutu: 28,796 bytes
+  - Geometri: 174 tris (Bütçe: 300 tris) -> %58.0 bütçe kullanımı
+  - Parçalar: 3 Mesh, 1 Empty
+  - Materyaller: M_Metal, M_Security_Atlas
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[47] SEC_Lock_Electromechanical:
+  - Klasör: 47. SEC_Lock_Electromechanical
+  - FBX Boyutu: 30,348 bytes
+  - Geometri: 168 tris (Bütçe: 320 tris) -> %52.5 bütçe kullanımı
+  - Parçalar: 4 Mesh, 2 Empty
+  - Materyaller: M_Metal, M_Security_Atlas
+  - Hareketli Pivotlar: Latch_Pivot
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[48] SEC_Lock_Door_Closer:
+  - Klasör: 48. SEC_Lock_Door_Closer
+  - FBX Boyutu: 29,116 bytes
+  - Geometri: 184 tris (Bütçe: 420 tris) -> %43.8 bütçe kullanımı
+  - Parçalar: 3 Mesh, 3 Empty
+  - Materyaller: M_Metal, M_Security_Atlas
+  - Hareketli Pivotlar: Arm_Pivot_A, Arm_Pivot_B
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[49] SEC_Lock_Rack_Cabinet:
+  - Klasör: 49. SEC_Lock_Rack_Cabinet
+  - FBX Boyutu: 31,868 bytes
+  - Geometri: 346 tris (Bütçe: 850 tris) -> %40.7 bütçe kullanımı
+  - Parçalar: 4 Mesh, 2 Empty
+  - Materyaller: M_Metal, M_Security_Atlas
+  - Hareketli Pivotlar: Door_Hinge_Pivot
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[50] SEC_Monitor_Wall_Display:
+  - Klasör: 50. SEC_Monitor_Wall_Display
+  - FBX Boyutu: 34,284 bytes
+  - Geometri: 314 tris (Bütçe: 500 tris) -> %62.8 bütçe kullanımı
+  - Parçalar: 4 Mesh, 2 Empty
+  - Materyaller: M_Metal, M_Screen, M_Security_Atlas
+  - Hareketli Pivotlar: Tilt_Pivot
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[51] SEC_Monitor_Small_Status:
+  - Klasör: 51. SEC_Monitor_Small_Status
+  - FBX Boyutu: 32,988 bytes
+  - Geometri: 158 tris (Bütçe: 280 tris) -> %56.4 bütçe kullanımı
+  - Parçalar: 5 Mesh, 1 Empty
+  - Materyaller: M_Screen, M_Security_Atlas
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[52] SEC_Monitor_Keyboard:
+  - Klasör: 52. SEC_Monitor_Keyboard
+  - FBX Boyutu: 38,044 bytes
+  - Geometri: 132 tris (Bütçe: 650 tris) -> %20.3 bütçe kullanımı
+  - Parçalar: 6 Mesh, 6 Empty
+  - Materyaller: M_Rubber, M_Security_Atlas
+  - Hareketli Pivotlar: Key_Row_01_Pivot, Key_Row_02_Pivot, Key_Row_03_Pivot, Key_Row_04_Pivot, Key_Row_05_Pivot
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[53] SEC_Console_Rack_Keyboard_Drawer:
+  - Klasör: 53. SEC_Console_Rack_Keyboard_Drawer
+  - FBX Boyutu: 34,460 bytes
+  - Geometri: 144 tris (Bütçe: 620 tris) -> %23.2 bütçe kullanımı
+  - Parçalar: 4 Mesh, 4 Empty
+  - Materyaller: M_Metal, M_Rubber, M_Security_Atlas
+  - Hareketli Pivotlar: Drawer_Slide_Pivot, Slide_Pivot_L, Slide_Pivot_R
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[54] SEC_DVR_NVR_16Channel:
+  - Klasör: 54. SEC_DVR_NVR_16Channel
+  - FBX Boyutu: 38,940 bytes
+  - Geometri: 98 tris (Bütçe: 580 tris) -> %16.9 bütçe kullanımı
+  - Parçalar: 6 Mesh, 2 Empty
+  - Materyaller: M_Emission, M_Metal, M_Screen, M_Security_Atlas
+  - Hareketli Pivotlar: Button_Pivot
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[55] SEC_DVR_Port_Expansion:
+  - Klasör: 55. SEC_DVR_Port_Expansion
+  - FBX Boyutu: 32,604 bytes
+  - Geometri: 276 tris (Bütçe: 420 tris) -> %65.7 bütçe kullanımı
+  - Parçalar: 4 Mesh, 1 Empty
+  - Materyaller: M_Emission, M_Metal, M_Security_Atlas
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[56] SEC_Network_POE_Switch:
+  - Klasör: 56. SEC_Network_POE_Switch
+  - FBX Boyutu: 153,052 bytes
+  - Geometri: 528 tris (Bütçe: 650 tris) -> %81.2 bütçe kullanımı
+  - Parçalar: 51 Mesh, 1 Empty
+  - Materyaller: M_Emission, M_Metal, M_Security_Atlas
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[57] SEC_Network_Router_Industrial:
+  - Klasör: 57. SEC_Network_Router_Industrial
+  - FBX Boyutu: 44,220 bytes
+  - Geometri: 392 tris (Bütçe: 500 tris) -> %78.4 bütçe kullanımı
+  - Parçalar: 7 Mesh, 5 Empty
+  - Materyaller: M_Emission, M_Metal, M_Security_Atlas
+  - Hareketli Pivotlar: Antenna_Pivot_01, Antenna_Pivot_02, Antenna_Pivot_03, Antenna_Pivot_04
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[58] SEC_Network_Fiber_Patch_Panel:
+  - Klasör: 58. SEC_Network_Fiber_Patch_Panel
+  - FBX Boyutu: 59,132 bytes
+  - Geometri: 372 tris (Bütçe: 480 tris) -> %77.5 bütçe kullanımı
+  - Parçalar: 15 Mesh, 1 Empty
+  - Materyaller: M_Metal, M_Security_Atlas
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[59] SEC_Power_Distribution_Unit:
+  - Klasör: 59. SEC_Power_Distribution_Unit
+  - FBX Boyutu: 50,652 bytes
+  - Geometri: 138 tris (Bütçe: 430 tris) -> %32.1 bütçe kullanımı
+  - Parçalar: 11 Mesh, 2 Empty
+  - Materyaller: M_Emission, M_Metal, M_Security_Atlas
+  - Hareketli Pivotlar: Main_Switch_Pivot
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[60] SEC_Battery_Module:
+  - Klasör: 60. SEC_Battery_Module
+  - FBX Boyutu: 30,972 bytes
+  - Geometri: 132 tris (Bütçe: 360 tris) -> %36.7 bütçe kullanımı
+  - Parçalar: 4 Mesh, 2 Empty
+  - Materyaller: M_Metal, M_Security_Atlas
+  - Hareketli Pivotlar: Pull_Handle_Pivot
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[61] SEC_Alarm_Control_Panel:
+  - Klasör: 61. SEC_Alarm_Control_Panel
+  - FBX Boyutu: 39,196 bytes
+  - Geometri: 438 tris (Bütçe: 600 tris) -> %73.0 bütçe kullanımı
+  - Parçalar: 5 Mesh, 2 Empty
+  - Materyaller: M_Emission, M_Metal, M_Screen, M_Security_Atlas
+  - Hareketli Pivotlar: Door_Hinge_Pivot
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[62] SEC_Alarm_Keypad_Touch:
+  - Klasör: 62. SEC_Alarm_Keypad_Touch
+  - FBX Boyutu: 31,708 bytes
+  - Geometri: 48 tris (Bütçe: 300 tris) -> %16.0 bütçe kullanımı
+  - Parçalar: 4 Mesh, 1 Empty
+  - Materyaller: M_Emission, M_Screen, M_Security_Atlas
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[63] SEC_Alarm_Outdoor_Speaker:
+  - Klasör: 63. SEC_Alarm_Outdoor_Speaker
+  - FBX Boyutu: 35,788 bytes
+  - Geometri: 400 tris (Bütçe: 420 tris) -> %95.2 bütçe kullanımı
+  - Parçalar: 4 Mesh, 2 Empty
+  - Materyaller: M_Metal, M_Security_Atlas
+  - Hareketli Pivotlar: Aim_Pivot
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[64] SEC_Alarm_Strobe_Light:
+  - Klasör: 64. SEC_Alarm_Strobe_Light
+  - FBX Boyutu: 36,684 bytes
+  - Geometri: 260 tris (Bütçe: 280 tris) -> %92.9 bütçe kullanımı
+  - Parçalar: 5 Mesh, 1 Empty
+  - Materyaller: M_Emission, M_Security_Atlas, M_Transparent
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[65] SEC_Alarm_Manual_Call_Point:
+  - Klasör: 65. SEC_Alarm_Manual_Call_Point
+  - FBX Boyutu: 33,132 bytes
+  - Geometri: 96 tris (Bütçe: 300 tris) -> %32.0 bütçe kullanımı
+  - Parçalar: 4 Mesh, 2 Empty
+  - Materyaller: M_Emission, M_Security_Atlas, M_Transparent
+  - Hareketli Pivotlar: Press_Pivot
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[66] SEC_Cable_Tray_Straight:
+  - Klasör: 66. SEC_Cable_Tray_Straight
+  - FBX Boyutu: 25,756 bytes
+  - Geometri: 92 tris (Bütçe: 220 tris) -> %41.8 bütçe kullanımı
+  - Parçalar: 3 Mesh, 1 Empty
+  - Materyaller: M_Security_Atlas
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[67] SEC_Cable_Tray_Elbow:
+  - Klasör: 67. SEC_Cable_Tray_Elbow
+  - FBX Boyutu: 27,020 bytes
+  - Geometri: 252 tris (Bütçe: 360 tris) -> %70.0 bütçe kullanımı
+  - Parçalar: 2 Mesh, 1 Empty
+  - Materyaller: M_Security_Atlas
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[68] SEC_Cable_Tray_Tee:
+  - Klasör: 68. SEC_Cable_Tray_Tee
+  - FBX Boyutu: 26,204 bytes
+  - Geometri: 122 tris (Bütçe: 380 tris) -> %32.1 bütçe kullanımı
+  - Parçalar: 3 Mesh, 1 Empty
+  - Materyaller: M_Security_Atlas
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[69] SEC_Cable_Gland_Set:
+  - Klasör: 69. SEC_Cable_Gland_Set
+  - FBX Boyutu: 85,884 bytes
+  - Geometri: 5868 tris (Bütçe: 6000 tris) -> %97.8 bütçe kullanımı
+  - Parçalar: 3 Mesh, 1 Empty
+  - Materyaller: M_Metal, M_Rubber
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[70] SEC_Cable_Reel:
+  - Klasör: 70. SEC_Cable_Reel
+  - FBX Boyutu: 89,052 bytes
+  - Geometri: 3344 tris (Bütçe: 3500 tris) -> %95.5 bütçe kullanımı
+  - Parçalar: 6 Mesh, 2 Empty
+  - Materyaller: M_Metal, M_Rubber
+  - Hareketli Pivotlar: Spindle_Pivot
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[71] SEC_Cable_Connector_Set:
+  - Klasör: 71. SEC_Cable_Connector_Set
+  - FBX Boyutu: 43,116 bytes
+  - Geometri: 1488 tris (Bütçe: 1500 tris) -> %99.2 bütçe kullanımı
+  - Parçalar: 3 Mesh, 1 Empty
+  - Materyaller: M_Metal, M_Rubber, M_Security_Atlas
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[72] SEC_Conduit_Wall_Clamp:
+  - Klasör: 72. SEC_Conduit_Wall_Clamp
+  - FBX Boyutu: 60,156 bytes
+  - Geometri: 1588 tris (Bütçe: 1600 tris) -> %99.2 bütçe kullanımı
+  - Parçalar: 4 Mesh, 2 Empty
+  - Materyaller: M_Metal
+  - Hareketli Pivotlar: Clamp_Upper_Pivot
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[73] SEC_Conduit_Flexible_Hose:
+  - Klasör: 73. SEC_Conduit_Flexible_Hose
+  - FBX Boyutu: 67,356 bytes
+  - Geometri: 2264 tris (Bütçe: 2300 tris) -> %98.4 bütçe kullanımı
+  - Parçalar: 3 Mesh, 1 Empty
+  - Materyaller: M_Metal
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[74] SEC_Ceiling_Cable_Drop:
+  - Klasör: 74. SEC_Ceiling_Cable_Drop
+  - FBX Boyutu: 35,548 bytes
+  - Geometri: 246 tris (Bütçe: 260 tris) -> %94.6 bütçe kullanımı
+  - Parçalar: 4 Mesh, 2 Empty
+  - Materyaller: M_Metal, M_Rubber
+  - Hareketli Pivotlar: Cable_Pivot
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+[75] SEC_Server_Rack_Fan:
+  - Klasör: 75. SEC_Server_Rack_Fan
+  - FBX Boyutu: 44,364 bytes
+  - Geometri: 366 tris (Bütçe: 380 tris) -> %96.3 bütçe kullanımı
+  - Parçalar: 7 Mesh, 2 Empty
+  - Materyaller: M_Metal, M_Security_Atlas
+  - Hareketli Pivotlar: Fan_Rotation_Pivot
+  - Doğrulama: HATASIZ / TÜM ŞARTLAR SAĞLANDI
+
+================================================================================
+SONUÇ VE ONAY:
+Security & CCTV endüstriyel kütüphanesinin 01'den 75'e kadar olan tüm 3D varlıkları,
+Unity oyun motoru entegrasyonu, low-poly bütçe sınırları, PBR dokulandırma kalitesi
+ve hiyerarşik pivot standartlarına tam uyumlu olarak eksiksiz onaylanmıştır.
+================================================================================

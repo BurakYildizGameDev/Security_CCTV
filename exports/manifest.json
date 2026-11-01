@@ -1,0 +1,1579 @@
+{
+  "summary": {
+    "title": "Security & Industrial CCTV Asset Pack - Comprehensive QA Manifest",
+    "validation_timestamp": "2026-11-01T18:55:10.293272",
+    "blender_version": "5.2.0 LTS",
+    "total_assets_checked": 75,
+    "success_count": 75,
+    "failed_count": 0,
+    "total_scene_triangles": 35773,
+    "total_scene_meshes": 415,
+    "total_scene_empties": 129,
+    "overall_status": "ALL_PASSED"
+  },
+  "assets": {
+    "SEC_Camera_PTZ_Industrial": {
+      "asset_id": 1,
+      "asset_name": "SEC_Camera_PTZ_Industrial",
+      "folder": "01. SEC_Camera_PTZ_Industrial",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\01. SEC_Camera_PTZ_Industrial\\exports\\SEC_Camera_PTZ_Industrial.fbx",
+      "file_size_bytes": 45644,
+      "status": "SUCCESS",
+      "tris_count": 724,
+      "budget": 800,
+      "mesh_count": 5,
+      "empty_count": 2,
+      "materials": [
+        "M_Emission",
+        "M_Lens_Glass",
+        "M_Metal",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Camera_PTZ_Industrial",
+      "moving_pivots": [
+        "Swivel_Y_Pivot",
+        "Tilt_X_Pivot"
+      ],
+      "errors": []
+    },
+    "SEC_Camera_Dome_Ceiling": {
+      "asset_id": 2,
+      "asset_name": "SEC_Camera_Dome_Ceiling",
+      "folder": "02. SEC_Camera_Dome_Ceiling",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\02. SEC_Camera_Dome_Ceiling\\exports\\SEC_Camera_Dome_Ceiling.fbx",
+      "file_size_bytes": 44764,
+      "status": "SUCCESS",
+      "tris_count": 466,
+      "budget": 500,
+      "mesh_count": 6,
+      "empty_count": 1,
+      "materials": [
+        "M_Emission",
+        "M_Lens_Glass",
+        "M_Security_Atlas",
+        "M_Transparent"
+      ],
+      "root_object": "SEC_Camera_Dome_Ceiling",
+      "moving_pivots": [
+        "Camera_Module_Pivot"
+      ],
+      "errors": []
+    },
+    "SEC_Camera_Box_Wall": {
+      "asset_id": 3,
+      "asset_name": "SEC_Camera_Box_Wall",
+      "folder": "03. SEC_Camera_Box_Wall",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\03. SEC_Camera_Box_Wall\\exports\\SEC_Camera_Box_Wall.fbx",
+      "file_size_bytes": 37788,
+      "status": "SUCCESS",
+      "tris_count": 394,
+      "budget": 450,
+      "mesh_count": 5,
+      "empty_count": 1,
+      "materials": [
+        "M_Lens_Glass",
+        "M_Metal",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Camera_Box_Wall",
+      "moving_pivots": [
+        "Bracket_Pivot"
+      ],
+      "errors": []
+    },
+    "SEC_Sensor_PIR_Motion": {
+      "asset_id": 4,
+      "asset_name": "SEC_Sensor_PIR_Motion",
+      "folder": "04. SEC_Sensor_PIR_Motion",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\04. SEC_Sensor_PIR_Motion\\exports\\SEC_Sensor_PIR_Motion.fbx",
+      "file_size_bytes": 31196,
+      "status": "SUCCESS",
+      "tris_count": 132,
+      "budget": 220,
+      "mesh_count": 4,
+      "empty_count": 0,
+      "materials": [
+        "M_Emission",
+        "M_Security_Atlas",
+        "M_Transparent"
+      ],
+      "root_object": "SEC_Sensor_PIR_Motion",
+      "moving_pivots": [],
+      "errors": []
+    },
+    "SEC_Sensor_Smoke_Fire": {
+      "asset_id": 5,
+      "asset_name": "SEC_Sensor_Smoke_Fire",
+      "folder": "05. SEC_Sensor_Smoke_Fire",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\05. SEC_Sensor_Smoke_Fire\\exports\\SEC_Sensor_Smoke_Fire.fbx",
+      "file_size_bytes": 31868,
+      "status": "SUCCESS",
+      "tris_count": 232,
+      "budget": 250,
+      "mesh_count": 4,
+      "empty_count": 0,
+      "materials": [
+        "M_Emission",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Sensor_Smoke_Fire",
+      "moving_pivots": [],
+      "errors": []
+    },
+    "SEC_Laser_Barrier_Emitter": {
+      "asset_id": 6,
+      "asset_name": "SEC_Laser_Barrier_Emitter",
+      "folder": "06. SEC_Laser_Barrier_Emitter",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\06. SEC_Laser_Barrier_Emitter\\exports\\SEC_Laser_Barrier_Emitter.fbx",
+      "file_size_bytes": 34220,
+      "status": "SUCCESS",
+      "tris_count": 242,
+      "budget": 300,
+      "mesh_count": 4,
+      "empty_count": 1,
+      "materials": [
+        "M_Emission",
+        "M_Lens_Glass",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Laser_Barrier_Emitter",
+      "moving_pivots": [
+        "Aim_Pivot"
+      ],
+      "errors": []
+    },
+    "SEC_Laser_Barrier_Receiver": {
+      "asset_id": 7,
+      "asset_name": "SEC_Laser_Barrier_Receiver",
+      "folder": "07. SEC_Laser_Barrier_Receiver",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\07. SEC_Laser_Barrier_Receiver\\exports\\SEC_Laser_Barrier_Receiver.fbx",
+      "file_size_bytes": 34796,
+      "status": "SUCCESS",
+      "tris_count": 270,
+      "budget": 300,
+      "mesh_count": 4,
+      "empty_count": 1,
+      "materials": [
+        "M_Emission",
+        "M_Lens_Glass",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Laser_Barrier_Receiver",
+      "moving_pivots": [
+        "Aim_Pivot"
+      ],
+      "errors": []
+    },
+    "SEC_Keypad_Access_Panel": {
+      "asset_id": 8,
+      "asset_name": "SEC_Keypad_Access_Panel",
+      "folder": "08.SEC_Keypad_Access_Panel",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\08.SEC_Keypad_Access_Panel\\exports\\SEC_Keypad_Access_Panel.fbx",
+      "file_size_bytes": 79964,
+      "status": "SUCCESS",
+      "tris_count": 486,
+      "budget": 550,
+      "mesh_count": 16,
+      "empty_count": 12,
+      "materials": [
+        "M_Emission",
+        "M_Screen",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Keypad_Access_Panel",
+      "moving_pivots": [
+        "Pivot_Key_0",
+        "Pivot_Key_1",
+        "Pivot_Key_2",
+        "Pivot_Key_3",
+        "Pivot_Key_4",
+        "Pivot_Key_5",
+        "Pivot_Key_6",
+        "Pivot_Key_7",
+        "Pivot_Key_8",
+        "Pivot_Key_9",
+        "Pivot_Key_Clear",
+        "Pivot_Key_Enter"
+      ],
+      "errors": []
+    },
+    "SEC_RFID_Card_Reader": {
+      "asset_id": 9,
+      "asset_name": "SEC_RFID_Card_Reader",
+      "folder": "09. SEC_RFID_Card_Reader",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\09. SEC_RFID_Card_Reader\\exports\\SEC_RFID_Card_Reader.fbx",
+      "file_size_bytes": 33548,
+      "status": "SUCCESS",
+      "tris_count": 192,
+      "budget": 280,
+      "mesh_count": 4,
+      "empty_count": 1,
+      "materials": [
+        "M_Emission",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_RFID_Card_Reader",
+      "moving_pivots": [],
+      "errors": []
+    },
+    "SEC_Biometric_Fingerprint_Reader": {
+      "asset_id": 10,
+      "asset_name": "SEC_Biometric_Fingerprint_Reader",
+      "folder": "10. SEC_Biometric_Fingerprint_Reader",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\10. SEC_Biometric_Fingerprint_Reader\\exports\\SEC_Biometric_Fingerprint_Reader.fbx",
+      "file_size_bytes": 40092,
+      "status": "SUCCESS",
+      "tris_count": 268,
+      "budget": 350,
+      "mesh_count": 5,
+      "empty_count": 1,
+      "materials": [
+        "M_Emission",
+        "M_Screen",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Biometric_Fingerprint_Reader",
+      "moving_pivots": [],
+      "errors": []
+    },
+    "SEC_Emergency_Break_Glass": {
+      "asset_id": 11,
+      "asset_name": "SEC_Emergency_Break_Glass",
+      "folder": "11. SEC_Emergency_Break_Glass",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\11. SEC_Emergency_Break_Glass\\exports\\SEC_Emergency_Break_Glass.fbx",
+      "file_size_bytes": 36508,
+      "status": "SUCCESS",
+      "tris_count": 238,
+      "budget": 250,
+      "mesh_count": 4,
+      "empty_count": 1,
+      "materials": [
+        "M_Emission",
+        "M_Security_Atlas",
+        "M_Transparent"
+      ],
+      "root_object": "SEC_Emergency_Break_Glass",
+      "moving_pivots": [],
+      "errors": []
+    },
+    "SEC_Emergency_Stop_Mushroom": {
+      "asset_id": 12,
+      "asset_name": "SEC_Emergency_Stop_Mushroom",
+      "folder": "12. SEC_Emergency_Stop_Mushroom",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\12. SEC_Emergency_Stop_Mushroom\\exports\\SEC_Emergency_Stop_Mushroom.fbx",
+      "file_size_bytes": 32508,
+      "status": "SUCCESS",
+      "tris_count": 254,
+      "budget": 300,
+      "mesh_count": 3,
+      "empty_count": 2,
+      "materials": [
+        "M_Emission",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Emergency_Stop_Mushroom",
+      "moving_pivots": [
+        "Button_Pivot"
+      ],
+      "errors": []
+    },
+    "SEC_Industrial_Toggle_Switch": {
+      "asset_id": 13,
+      "asset_name": "SEC_Industrial_Toggle_Switch",
+      "folder": "13. SEC_Industrial_Toggle_Switch",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\13. SEC_Industrial_Toggle_Switch\\exports\\SEC_Industrial_Toggle_Switch.fbx",
+      "file_size_bytes": 31692,
+      "status": "SUCCESS",
+      "tris_count": 264,
+      "budget": 280,
+      "mesh_count": 3,
+      "empty_count": 2,
+      "materials": [
+        "M_Metal",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Industrial_Toggle_Switch",
+      "moving_pivots": [
+        "Toggle_Pivot"
+      ],
+      "errors": []
+    },
+    "SEC_Magnetic_Door_Lock": {
+      "asset_id": 14,
+      "asset_name": "SEC_Magnetic_Door_Lock",
+      "folder": "14. SEC_Magnetic_Door_Lock",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\14. SEC_Magnetic_Door_Lock\\exports\\SEC_Magnetic_Door_Lock.fbx",
+      "file_size_bytes": 30940,
+      "status": "SUCCESS",
+      "tris_count": 310,
+      "budget": 350,
+      "mesh_count": 3,
+      "empty_count": 2,
+      "materials": [
+        "M_Metal",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Magnetic_Door_Lock",
+      "moving_pivots": [],
+      "errors": []
+    },
+    "SEC_Monitor_CRT_90s": {
+      "asset_id": 15,
+      "asset_name": "SEC_Monitor_CRT_90s",
+      "folder": "15. SEC_Monitor_CRT_90s",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\15. SEC_Monitor_CRT_90s\\exports\\SEC_Monitor_CRT_90s.fbx",
+      "file_size_bytes": 40956,
+      "status": "SUCCESS",
+      "tris_count": 521,
+      "budget": 650,
+      "mesh_count": 5,
+      "empty_count": 1,
+      "materials": [
+        "M_Metal",
+        "M_Screen",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Monitor_CRT_90s",
+      "moving_pivots": [],
+      "errors": []
+    },
+    "SEC_Monitor_CCTV_Quad_LCD": {
+      "asset_id": 16,
+      "asset_name": "SEC_Monitor_CCTV_Quad_LCD",
+      "folder": "16. SEC_Monitor_CCTV_Quad_LCD",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\16. SEC_Monitor_CCTV_Quad_LCD\\exports\\SEC_Monitor_CCTV_Quad_LCD.fbx",
+      "file_size_bytes": 45932,
+      "status": "SUCCESS",
+      "tris_count": 424,
+      "budget": 500,
+      "mesh_count": 7,
+      "empty_count": 2,
+      "materials": [
+        "M_Metal",
+        "M_Screen",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Monitor_CCTV_Quad_LCD",
+      "moving_pivots": [
+        "Display_Tilt_Pivot"
+      ],
+      "errors": []
+    },
+    "SEC_Rack_DVR_Recorder": {
+      "asset_id": 17,
+      "asset_name": "SEC_Rack_DVR_Recorder",
+      "folder": "17. SEC_Rack_DVR_Recorder",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\17. SEC_Rack_DVR_Recorder\\exports\\SEC_Rack_DVR_Recorder.fbx",
+      "file_size_bytes": 40540,
+      "status": "SUCCESS",
+      "tris_count": 227,
+      "budget": 500,
+      "mesh_count": 6,
+      "empty_count": 1,
+      "materials": [
+        "M_Emission",
+        "M_Metal",
+        "M_Screen",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Rack_DVR_Recorder",
+      "moving_pivots": [],
+      "errors": []
+    },
+    "SEC_Console_Camera_Joystick": {
+      "asset_id": 18,
+      "asset_name": "SEC_Console_Camera_Joystick",
+      "folder": "18. SEC_Console_Camera_Joystick",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\18. SEC_Console_Camera_Joystick\\exports\\SEC_Console_Camera_Joystick.fbx",
+      "file_size_bytes": 45596,
+      "status": "SUCCESS",
+      "tris_count": 506,
+      "budget": 600,
+      "mesh_count": 6,
+      "empty_count": 2,
+      "materials": [
+        "M_Emission",
+        "M_Screen",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Console_Camera_Joystick",
+      "moving_pivots": [
+        "Joystick_Pivot"
+      ],
+      "errors": []
+    },
+    "SEC_Alarm_Siren_Beacon": {
+      "asset_id": 19,
+      "asset_name": "SEC_Alarm_Siren_Beacon",
+      "folder": "19. SEC_Alarm_Siren_Beacon",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\19. SEC_Alarm_Siren_Beacon\\exports\\SEC_Alarm_Siren_Beacon.fbx",
+      "file_size_bytes": 34892,
+      "status": "SUCCESS",
+      "tris_count": 194,
+      "budget": 350,
+      "mesh_count": 5,
+      "empty_count": 1,
+      "materials": [
+        "M_Emission",
+        "M_Security_Atlas",
+        "M_Transparent"
+      ],
+      "root_object": "SEC_Alarm_Siren_Beacon",
+      "moving_pivots": [],
+      "errors": []
+    },
+    "SEC_UPS_Power_Supply": {
+      "asset_id": 20,
+      "asset_name": "SEC_UPS_Power_Supply",
+      "folder": "20. SEC_UPS_Power_Supply",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\20. SEC_UPS_Power_Supply\\exports\\SEC_UPS_Power_Supply.fbx",
+      "file_size_bytes": 37356,
+      "status": "SUCCESS",
+      "tris_count": 240,
+      "budget": 450,
+      "mesh_count": 5,
+      "empty_count": 1,
+      "materials": [
+        "M_Emission",
+        "M_Metal",
+        "M_Screen",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_UPS_Power_Supply",
+      "moving_pivots": [],
+      "errors": []
+    },
+    "SEC_Conduit_Straight_2m": {
+      "asset_id": 21,
+      "asset_name": "SEC_Conduit_Straight_2m",
+      "folder": "21. SEC_Conduit_Straight_2m",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\21. SEC_Conduit_Straight_2m\\exports\\SEC_Conduit_Straight_2m.fbx",
+      "file_size_bytes": 25644,
+      "status": "SUCCESS",
+      "tris_count": 128,
+      "budget": 128,
+      "mesh_count": 3,
+      "empty_count": 1,
+      "materials": [
+        "M_Metal"
+      ],
+      "root_object": "SEC_Conduit_Straight_2m",
+      "moving_pivots": [],
+      "errors": []
+    },
+    "SEC_Conduit_Corner_90": {
+      "asset_id": 22,
+      "asset_name": "SEC_Conduit_Corner_90",
+      "folder": "22. SEC_Conduit_Corner_90",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\22. SEC_Conduit_Corner_90\\exports\\SEC_Conduit_Corner_90.fbx",
+      "file_size_bytes": 51980,
+      "status": "SUCCESS",
+      "tris_count": 1548,
+      "budget": 1600,
+      "mesh_count": 3,
+      "empty_count": 1,
+      "materials": [
+        "M_Metal"
+      ],
+      "root_object": "SEC_Conduit_Corner_90",
+      "moving_pivots": [],
+      "errors": []
+    },
+    "SEC_Conduit_Junction_T": {
+      "asset_id": 23,
+      "asset_name": "SEC_Conduit_Junction_T",
+      "folder": "23. SEC_Conduit_Junction_T",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\23. SEC_Conduit_Junction_T\\exports\\SEC_Conduit_Junction_T.fbx",
+      "file_size_bytes": 41420,
+      "status": "SUCCESS",
+      "tris_count": 690,
+      "budget": 750,
+      "mesh_count": 5,
+      "empty_count": 1,
+      "materials": [
+        "M_Metal"
+      ],
+      "root_object": "SEC_Conduit_Junction_T",
+      "moving_pivots": [],
+      "errors": []
+    },
+    "SEC_Ceiling_Conduit_Clamp": {
+      "asset_id": 24,
+      "asset_name": "SEC_Ceiling_Conduit_Clamp",
+      "folder": "24. SEC_Ceiling_Conduit_Clamp",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\24. SEC_Ceiling_Conduit_Clamp\\exports\\SEC_Ceiling_Conduit_Clamp.fbx",
+      "file_size_bytes": 32316,
+      "status": "SUCCESS",
+      "tris_count": 364,
+      "budget": 400,
+      "mesh_count": 4,
+      "empty_count": 1,
+      "materials": [
+        "M_Metal"
+      ],
+      "root_object": "SEC_Ceiling_Conduit_Clamp",
+      "moving_pivots": [],
+      "errors": []
+    },
+    "SEC_Hanging_Industrial_Cable_Bundle": {
+      "asset_id": 25,
+      "asset_name": "SEC_Hanging_Industrial_Cable_Bundle",
+      "folder": "25. SEC_Hanging_Industrial_Cable_Bundle",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\25. SEC_Hanging_Industrial_Cable_Bundle\\exports\\SEC_Hanging_Industrial_Cable_Bundle.fbx",
+      "file_size_bytes": 56604,
+      "status": "SUCCESS",
+      "tris_count": 498,
+      "budget": 500,
+      "mesh_count": 11,
+      "empty_count": 1,
+      "materials": [
+        "M_Metal",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Hanging_Industrial_Cable_Bundle",
+      "moving_pivots": [],
+      "errors": []
+    },
+    "SEC_Camera_Bullet_Outdoor": {
+      "asset_id": 26,
+      "asset_name": "SEC_Camera_Bullet_Outdoor",
+      "folder": "26. SEC_Camera_Bullet_Outdoor",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\26. SEC_Camera_Bullet_Outdoor\\exports\\SEC_Camera_Bullet_Outdoor.fbx",
+      "file_size_bytes": 42812,
+      "status": "SUCCESS",
+      "tris_count": 486,
+      "budget": 520,
+      "mesh_count": 5,
+      "empty_count": 2,
+      "materials": [
+        "M_Emission",
+        "M_Lens_Glass",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Camera_Bullet_Outdoor",
+      "moving_pivots": [
+        "Aim_Pivot"
+      ],
+      "errors": []
+    },
+    "SEC_Camera_Fisheye_360": {
+      "asset_id": 27,
+      "asset_name": "SEC_Camera_Fisheye_360",
+      "folder": "27. SEC_Camera_Fisheye_360",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\27. SEC_Camera_Fisheye_360\\exports\\SEC_Camera_Fisheye_360.fbx",
+      "file_size_bytes": 32156,
+      "status": "SUCCESS",
+      "tris_count": 288,
+      "budget": 320,
+      "mesh_count": 3,
+      "empty_count": 1,
+      "materials": [
+        "M_Lens_Glass",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Camera_Fisheye_360",
+      "moving_pivots": [],
+      "errors": []
+    },
+    "SEC_Camera_Thermal": {
+      "asset_id": 28,
+      "asset_name": "SEC_Camera_Thermal",
+      "folder": "28. SEC_Camera_Thermal",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\28. SEC_Camera_Thermal\\exports\\SEC_Camera_Thermal.fbx",
+      "file_size_bytes": 35756,
+      "status": "SUCCESS",
+      "tris_count": 438,
+      "budget": 480,
+      "mesh_count": 3,
+      "empty_count": 2,
+      "materials": [
+        "M_Lens_Glass",
+        "M_Metal",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Camera_Thermal",
+      "moving_pivots": [
+        "Aim_Pivot"
+      ],
+      "errors": []
+    },
+    "SEC_Camera_LPR": {
+      "asset_id": 29,
+      "asset_name": "SEC_Camera_LPR",
+      "folder": "29. SEC_Camera_LPR",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\29. SEC_Camera_LPR\\exports\\SEC_Camera_LPR.fbx",
+      "file_size_bytes": 39756,
+      "status": "SUCCESS",
+      "tris_count": 510,
+      "budget": 600,
+      "mesh_count": 4,
+      "empty_count": 2,
+      "materials": [
+        "M_Emission",
+        "M_Lens_Glass",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Camera_LPR",
+      "moving_pivots": [
+        "Aim_Pivot"
+      ],
+      "errors": []
+    },
+    "SEC_Camera_Mini_Dome": {
+      "asset_id": 30,
+      "asset_name": "SEC_Camera_Mini_Dome",
+      "folder": "30. SEC_Camera_Mini_Dome",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\30. SEC_Camera_Mini_Dome\\exports\\SEC_Camera_Mini_Dome.fbx",
+      "file_size_bytes": 37292,
+      "status": "SUCCESS",
+      "tris_count": 291,
+      "budget": 300,
+      "mesh_count": 4,
+      "empty_count": 2,
+      "materials": [
+        "M_Lens_Glass",
+        "M_Security_Atlas",
+        "M_Transparent"
+      ],
+      "root_object": "SEC_Camera_Mini_Dome",
+      "moving_pivots": [
+        "Camera_Module_Pivot"
+      ],
+      "errors": []
+    },
+    "SEC_Camera_Corner_Mount": {
+      "asset_id": 31,
+      "asset_name": "SEC_Camera_Corner_Mount",
+      "folder": "31. SEC_Camera_Corner_Mount",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\31. SEC_Camera_Corner_Mount\\exports\\SEC_Camera_Corner_Mount.fbx",
+      "file_size_bytes": 34620,
+      "status": "SUCCESS",
+      "tris_count": 394,
+      "budget": 450,
+      "mesh_count": 3,
+      "empty_count": 2,
+      "materials": [
+        "M_Lens_Glass",
+        "M_Metal",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Camera_Corner_Mount",
+      "moving_pivots": [
+        "Aim_Pivot"
+      ],
+      "errors": []
+    },
+    "SEC_Camera_Concealed_Smoke": {
+      "asset_id": 32,
+      "asset_name": "SEC_Camera_Concealed_Smoke",
+      "folder": "32. SEC_Camera_Concealed_Smoke",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\32. SEC_Camera_Concealed_Smoke\\exports\\SEC_Camera_Concealed_Smoke.fbx",
+      "file_size_bytes": 33100,
+      "status": "SUCCESS",
+      "tris_count": 214,
+      "budget": 280,
+      "mesh_count": 4,
+      "empty_count": 1,
+      "materials": [
+        "M_Lens_Glass",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Camera_Concealed_Smoke",
+      "moving_pivots": [],
+      "errors": []
+    },
+    "SEC_Camera_Armored": {
+      "asset_id": 33,
+      "asset_name": "SEC_Camera_Armored",
+      "folder": "33. SEC_Camera_Armored",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\33. SEC_Camera_Armored\\exports\\SEC_Camera_Armored.fbx",
+      "file_size_bytes": 38572,
+      "status": "SUCCESS",
+      "tris_count": 570,
+      "budget": 620,
+      "mesh_count": 4,
+      "empty_count": 2,
+      "materials": [
+        "M_Lens_Glass",
+        "M_Metal",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Camera_Armored",
+      "moving_pivots": [
+        "Aim_Pivot"
+      ],
+      "errors": []
+    },
+    "SEC_Sensor_Glass_Break": {
+      "asset_id": 34,
+      "asset_name": "SEC_Sensor_Glass_Break",
+      "folder": "34. SEC_Sensor_Glass_Break",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\34. SEC_Sensor_Glass_Break\\exports\\SEC_Sensor_Glass_Break.fbx",
+      "file_size_bytes": 30892,
+      "status": "SUCCESS",
+      "tris_count": 172,
+      "budget": 240,
+      "mesh_count": 4,
+      "empty_count": 1,
+      "materials": [
+        "M_Emission",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Sensor_Glass_Break",
+      "moving_pivots": [],
+      "errors": []
+    },
+    "SEC_Sensor_Door_Contact": {
+      "asset_id": 35,
+      "asset_name": "SEC_Sensor_Door_Contact",
+      "folder": "35. SEC_Sensor_Door_Contact",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\35. SEC_Sensor_Door_Contact\\exports\\SEC_Sensor_Door_Contact.fbx",
+      "file_size_bytes": 39868,
+      "status": "SUCCESS",
+      "tris_count": 176,
+      "budget": 180,
+      "mesh_count": 8,
+      "empty_count": 2,
+      "materials": [
+        "M_Metal",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Sensor_Door_Contact",
+      "moving_pivots": [],
+      "errors": []
+    },
+    "SEC_Sensor_Vibration": {
+      "asset_id": 36,
+      "asset_name": "SEC_Sensor_Vibration",
+      "folder": "36. SEC_Sensor_Vibration",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\36. SEC_Sensor_Vibration\\exports\\SEC_Sensor_Vibration.fbx",
+      "file_size_bytes": 44028,
+      "status": "SUCCESS",
+      "tris_count": 216,
+      "budget": 220,
+      "mesh_count": 10,
+      "empty_count": 1,
+      "materials": [
+        "M_Metal",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Sensor_Vibration",
+      "moving_pivots": [],
+      "errors": []
+    },
+    "SEC_Sensor_Ultrasonic": {
+      "asset_id": 37,
+      "asset_name": "SEC_Sensor_Ultrasonic",
+      "folder": "37. SEC_Sensor_Ultrasonic",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\37. SEC_Sensor_Ultrasonic\\exports\\SEC_Sensor_Ultrasonic.fbx",
+      "file_size_bytes": 31788,
+      "status": "SUCCESS",
+      "tris_count": 176,
+      "budget": 260,
+      "mesh_count": 4,
+      "empty_count": 1,
+      "materials": [
+        "M_Emission",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Sensor_Ultrasonic",
+      "moving_pivots": [],
+      "errors": []
+    },
+    "SEC_Sensor_Gas": {
+      "asset_id": 38,
+      "asset_name": "SEC_Sensor_Gas",
+      "folder": "38. SEC_Sensor_Gas",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\38. SEC_Sensor_Gas\\exports\\SEC_Sensor_Gas.fbx",
+      "file_size_bytes": 38204,
+      "status": "SUCCESS",
+      "tris_count": 224,
+      "budget": 260,
+      "mesh_count": 6,
+      "empty_count": 1,
+      "materials": [
+        "M_Emission",
+        "M_Metal",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Sensor_Gas",
+      "moving_pivots": [],
+      "errors": []
+    },
+    "SEC_Beam_Detector_Dual": {
+      "asset_id": 39,
+      "asset_name": "SEC_Beam_Detector_Dual",
+      "folder": "39. SEC_Beam_Detector_Dual",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\39. SEC_Beam_Detector_Dual\\exports\\SEC_Beam_Detector_Dual.fbx",
+      "file_size_bytes": 38460,
+      "status": "SUCCESS",
+      "tris_count": 256,
+      "budget": 340,
+      "mesh_count": 5,
+      "empty_count": 2,
+      "materials": [
+        "M_Emission",
+        "M_Lens_Glass",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Beam_Detector_Dual",
+      "moving_pivots": [
+        "Aim_Pivot"
+      ],
+      "errors": []
+    },
+    "SEC_Access_Turnstile_Reader": {
+      "asset_id": 40,
+      "asset_name": "SEC_Access_Turnstile_Reader",
+      "folder": "40. SEC_Access_Turnstile_Reader",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\40. SEC_Access_Turnstile_Reader\\exports\\SEC_Access_Turnstile_Reader.fbx",
+      "file_size_bytes": 34924,
+      "status": "SUCCESS",
+      "tris_count": 264,
+      "budget": 300,
+      "mesh_count": 4,
+      "empty_count": 1,
+      "materials": [
+        "M_Emission",
+        "M_Metal",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Access_Turnstile_Reader",
+      "moving_pivots": [],
+      "errors": []
+    },
+    "SEC_Access_Intercom": {
+      "asset_id": 41,
+      "asset_name": "SEC_Access_Intercom",
+      "folder": "41. SEC_Access_Intercom",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\41. SEC_Access_Intercom\\exports\\SEC_Access_Intercom.fbx",
+      "file_size_bytes": 45212,
+      "status": "SUCCESS",
+      "tris_count": 348,
+      "budget": 420,
+      "mesh_count": 6,
+      "empty_count": 2,
+      "materials": [
+        "M_Emission",
+        "M_Lens_Glass",
+        "M_Screen",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Access_Intercom",
+      "moving_pivots": [
+        "Button_Pivot"
+      ],
+      "errors": []
+    },
+    "SEC_Access_Exit_Button": {
+      "asset_id": 42,
+      "asset_name": "SEC_Access_Exit_Button",
+      "folder": "42. SEC_Access_Exit_Button",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\42. SEC_Access_Exit_Button\\exports\\SEC_Access_Exit_Button.fbx",
+      "file_size_bytes": 36220,
+      "status": "SUCCESS",
+      "tris_count": 164,
+      "budget": 180,
+      "mesh_count": 5,
+      "empty_count": 2,
+      "materials": [
+        "M_Emission",
+        "M_Metal",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Access_Exit_Button",
+      "moving_pivots": [
+        "Button_Pivot"
+      ],
+      "errors": []
+    },
+    "SEC_Access_Key_Switch": {
+      "asset_id": 43,
+      "asset_name": "SEC_Access_Key_Switch",
+      "folder": "43. SEC_Access_Key_Switch",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\43. SEC_Access_Key_Switch\\exports\\SEC_Access_Key_Switch.fbx",
+      "file_size_bytes": 28284,
+      "status": "SUCCESS",
+      "tris_count": 84,
+      "budget": 240,
+      "mesh_count": 3,
+      "empty_count": 2,
+      "materials": [
+        "M_Metal",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Access_Key_Switch",
+      "moving_pivots": [
+        "Key_Rotation_Pivot"
+      ],
+      "errors": []
+    },
+    "SEC_Access_Card_Reader_Rugged": {
+      "asset_id": 44,
+      "asset_name": "SEC_Access_Card_Reader_Rugged",
+      "folder": "44. SEC_Access_Card_Reader_Rugged",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\44. SEC_Access_Card_Reader_Rugged\\exports\\SEC_Access_Card_Reader_Rugged.fbx",
+      "file_size_bytes": 34732,
+      "status": "SUCCESS",
+      "tris_count": 140,
+      "budget": 340,
+      "mesh_count": 5,
+      "empty_count": 1,
+      "materials": [
+        "M_Emission",
+        "M_Emission.001",
+        "M_Emission.002",
+        "M_Metal",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Access_Card_Reader_Rugged",
+      "moving_pivots": [],
+      "errors": []
+    },
+    "SEC_Access_Bio_Terminal_Desktop": {
+      "asset_id": 45,
+      "asset_name": "SEC_Access_Bio_Terminal_Desktop",
+      "folder": "45. SEC_Access_Bio_Terminal_Desktop",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\45. SEC_Access_Bio_Terminal_Desktop\\exports\\SEC_Access_Bio_Terminal_Desktop.fbx",
+      "file_size_bytes": 34796,
+      "status": "SUCCESS",
+      "tris_count": 122,
+      "budget": 400,
+      "mesh_count": 4,
+      "empty_count": 2,
+      "materials": [
+        "M_Emission",
+        "M_Screen",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Access_Bio_Terminal_Desktop",
+      "moving_pivots": [
+        "Tilt_Pivot"
+      ],
+      "errors": []
+    },
+    "SEC_Lock_Electric_Strike": {
+      "asset_id": 46,
+      "asset_name": "SEC_Lock_Electric_Strike",
+      "folder": "46. SEC_Lock_Electric_Strike",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\46. SEC_Lock_Electric_Strike\\exports\\SEC_Lock_Electric_Strike.fbx",
+      "file_size_bytes": 28796,
+      "status": "SUCCESS",
+      "tris_count": 174,
+      "budget": 300,
+      "mesh_count": 3,
+      "empty_count": 1,
+      "materials": [
+        "M_Metal",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Lock_Electric_Strike",
+      "moving_pivots": [],
+      "errors": []
+    },
+    "SEC_Lock_Electromechanical": {
+      "asset_id": 47,
+      "asset_name": "SEC_Lock_Electromechanical",
+      "folder": "47. SEC_Lock_Electromechanical",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\47. SEC_Lock_Electromechanical\\exports\\SEC_Lock_Electromechanical.fbx",
+      "file_size_bytes": 30348,
+      "status": "SUCCESS",
+      "tris_count": 168,
+      "budget": 320,
+      "mesh_count": 4,
+      "empty_count": 2,
+      "materials": [
+        "M_Metal",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Lock_Electromechanical",
+      "moving_pivots": [
+        "Latch_Pivot"
+      ],
+      "errors": []
+    },
+    "SEC_Lock_Door_Closer": {
+      "asset_id": 48,
+      "asset_name": "SEC_Lock_Door_Closer",
+      "folder": "48. SEC_Lock_Door_Closer",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\48. SEC_Lock_Door_Closer\\exports\\SEC_Lock_Door_Closer.fbx",
+      "file_size_bytes": 29116,
+      "status": "SUCCESS",
+      "tris_count": 184,
+      "budget": 420,
+      "mesh_count": 3,
+      "empty_count": 3,
+      "materials": [
+        "M_Metal",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Lock_Door_Closer",
+      "moving_pivots": [
+        "Arm_Pivot_A",
+        "Arm_Pivot_B"
+      ],
+      "errors": []
+    },
+    "SEC_Lock_Rack_Cabinet": {
+      "asset_id": 49,
+      "asset_name": "SEC_Lock_Rack_Cabinet",
+      "folder": "49. SEC_Lock_Rack_Cabinet",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\49. SEC_Lock_Rack_Cabinet\\exports\\SEC_Lock_Rack_Cabinet.fbx",
+      "file_size_bytes": 31868,
+      "status": "SUCCESS",
+      "tris_count": 346,
+      "budget": 850,
+      "mesh_count": 4,
+      "empty_count": 2,
+      "materials": [
+        "M_Metal",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Lock_Rack_Cabinet",
+      "moving_pivots": [
+        "Door_Hinge_Pivot"
+      ],
+      "errors": []
+    },
+    "SEC_Monitor_Wall_Display": {
+      "asset_id": 50,
+      "asset_name": "SEC_Monitor_Wall_Display",
+      "folder": "50. SEC_Monitor_Wall_Display",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\50. SEC_Monitor_Wall_Display\\exports\\SEC_Monitor_Wall_Display.fbx",
+      "file_size_bytes": 34284,
+      "status": "SUCCESS",
+      "tris_count": 314,
+      "budget": 500,
+      "mesh_count": 4,
+      "empty_count": 2,
+      "materials": [
+        "M_Metal",
+        "M_Screen",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Monitor_Wall_Display",
+      "moving_pivots": [
+        "Tilt_Pivot"
+      ],
+      "errors": []
+    },
+    "SEC_Monitor_Small_Status": {
+      "asset_id": 51,
+      "asset_name": "SEC_Monitor_Small_Status",
+      "folder": "51. SEC_Monitor_Small_Status",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\51. SEC_Monitor_Small_Status\\exports\\SEC_Monitor_Small_Status.fbx",
+      "file_size_bytes": 32988,
+      "status": "SUCCESS",
+      "tris_count": 158,
+      "budget": 280,
+      "mesh_count": 5,
+      "empty_count": 1,
+      "materials": [
+        "M_Screen",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Monitor_Small_Status",
+      "moving_pivots": [],
+      "errors": []
+    },
+    "SEC_Monitor_Keyboard": {
+      "asset_id": 52,
+      "asset_name": "SEC_Monitor_Keyboard",
+      "folder": "52. SEC_Monitor_Keyboard",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\52. SEC_Monitor_Keyboard\\exports\\SEC_Monitor_Keyboard.fbx",
+      "file_size_bytes": 38044,
+      "status": "SUCCESS",
+      "tris_count": 132,
+      "budget": 650,
+      "mesh_count": 6,
+      "empty_count": 6,
+      "materials": [
+        "M_Rubber",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Monitor_Keyboard",
+      "moving_pivots": [
+        "Key_Row_01_Pivot",
+        "Key_Row_02_Pivot",
+        "Key_Row_03_Pivot",
+        "Key_Row_04_Pivot",
+        "Key_Row_05_Pivot"
+      ],
+      "errors": []
+    },
+    "SEC_Console_Rack_Keyboard_Drawer": {
+      "asset_id": 53,
+      "asset_name": "SEC_Console_Rack_Keyboard_Drawer",
+      "folder": "53. SEC_Console_Rack_Keyboard_Drawer",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\53. SEC_Console_Rack_Keyboard_Drawer\\exports\\SEC_Console_Rack_Keyboard_Drawer.fbx",
+      "file_size_bytes": 34460,
+      "status": "SUCCESS",
+      "tris_count": 144,
+      "budget": 620,
+      "mesh_count": 4,
+      "empty_count": 4,
+      "materials": [
+        "M_Metal",
+        "M_Rubber",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Console_Rack_Keyboard_Drawer",
+      "moving_pivots": [
+        "Drawer_Slide_Pivot",
+        "Slide_Pivot_L",
+        "Slide_Pivot_R"
+      ],
+      "errors": []
+    },
+    "SEC_DVR_NVR_16Channel": {
+      "asset_id": 54,
+      "asset_name": "SEC_DVR_NVR_16Channel",
+      "folder": "54. SEC_DVR_NVR_16Channel",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\54. SEC_DVR_NVR_16Channel\\exports\\SEC_DVR_NVR_16Channel.fbx",
+      "file_size_bytes": 38940,
+      "status": "SUCCESS",
+      "tris_count": 98,
+      "budget": 580,
+      "mesh_count": 6,
+      "empty_count": 2,
+      "materials": [
+        "M_Emission",
+        "M_Metal",
+        "M_Screen",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_DVR_NVR_16Channel",
+      "moving_pivots": [
+        "Button_Pivot"
+      ],
+      "errors": []
+    },
+    "SEC_DVR_Port_Expansion": {
+      "asset_id": 55,
+      "asset_name": "SEC_DVR_Port_Expansion",
+      "folder": "55. SEC_DVR_Port_Expansion",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\55. SEC_DVR_Port_Expansion\\exports\\SEC_DVR_Port_Expansion.fbx",
+      "file_size_bytes": 32604,
+      "status": "SUCCESS",
+      "tris_count": 276,
+      "budget": 420,
+      "mesh_count": 4,
+      "empty_count": 1,
+      "materials": [
+        "M_Emission",
+        "M_Metal",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_DVR_Port_Expansion",
+      "moving_pivots": [],
+      "errors": []
+    },
+    "SEC_Network_POE_Switch": {
+      "asset_id": 56,
+      "asset_name": "SEC_Network_POE_Switch",
+      "folder": "56. SEC_Network_POE_Switch",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\56. SEC_Network_POE_Switch\\exports\\SEC_Network_POE_Switch.fbx",
+      "file_size_bytes": 153052,
+      "status": "SUCCESS",
+      "tris_count": 528,
+      "budget": 650,
+      "mesh_count": 51,
+      "empty_count": 1,
+      "materials": [
+        "M_Emission",
+        "M_Metal",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Network_POE_Switch",
+      "moving_pivots": [],
+      "errors": []
+    },
+    "SEC_Network_Router_Industrial": {
+      "asset_id": 57,
+      "asset_name": "SEC_Network_Router_Industrial",
+      "folder": "57. SEC_Network_Router_Industrial",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\57. SEC_Network_Router_Industrial\\exports\\SEC_Network_Router_Industrial.fbx",
+      "file_size_bytes": 44220,
+      "status": "SUCCESS",
+      "tris_count": 392,
+      "budget": 500,
+      "mesh_count": 7,
+      "empty_count": 5,
+      "materials": [
+        "M_Emission",
+        "M_Metal",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Network_Router_Industrial",
+      "moving_pivots": [
+        "Antenna_Pivot_01",
+        "Antenna_Pivot_02",
+        "Antenna_Pivot_03",
+        "Antenna_Pivot_04"
+      ],
+      "errors": []
+    },
+    "SEC_Network_Fiber_Patch_Panel": {
+      "asset_id": 58,
+      "asset_name": "SEC_Network_Fiber_Patch_Panel",
+      "folder": "58. SEC_Network_Fiber_Patch_Panel",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\58. SEC_Network_Fiber_Patch_Panel\\exports\\SEC_Network_Fiber_Patch_Panel.fbx",
+      "file_size_bytes": 59132,
+      "status": "SUCCESS",
+      "tris_count": 372,
+      "budget": 480,
+      "mesh_count": 15,
+      "empty_count": 1,
+      "materials": [
+        "M_Metal",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Network_Fiber_Patch_Panel",
+      "moving_pivots": [],
+      "errors": []
+    },
+    "SEC_Power_Distribution_Unit": {
+      "asset_id": 59,
+      "asset_name": "SEC_Power_Distribution_Unit",
+      "folder": "59. SEC_Power_Distribution_Unit",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\59. SEC_Power_Distribution_Unit\\exports\\SEC_Power_Distribution_Unit.fbx",
+      "file_size_bytes": 50652,
+      "status": "SUCCESS",
+      "tris_count": 138,
+      "budget": 430,
+      "mesh_count": 11,
+      "empty_count": 2,
+      "materials": [
+        "M_Emission",
+        "M_Metal",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Power_Distribution_Unit",
+      "moving_pivots": [
+        "Main_Switch_Pivot"
+      ],
+      "errors": []
+    },
+    "SEC_Battery_Module": {
+      "asset_id": 60,
+      "asset_name": "SEC_Battery_Module",
+      "folder": "60. SEC_Battery_Module",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\60. SEC_Battery_Module\\exports\\SEC_Battery_Module.fbx",
+      "file_size_bytes": 30972,
+      "status": "SUCCESS",
+      "tris_count": 132,
+      "budget": 360,
+      "mesh_count": 4,
+      "empty_count": 2,
+      "materials": [
+        "M_Metal",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Battery_Module",
+      "moving_pivots": [
+        "Pull_Handle_Pivot"
+      ],
+      "errors": []
+    },
+    "SEC_Alarm_Control_Panel": {
+      "asset_id": 61,
+      "asset_name": "SEC_Alarm_Control_Panel",
+      "folder": "61. SEC_Alarm_Control_Panel",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\61. SEC_Alarm_Control_Panel\\exports\\SEC_Alarm_Control_Panel.fbx",
+      "file_size_bytes": 39196,
+      "status": "SUCCESS",
+      "tris_count": 438,
+      "budget": 600,
+      "mesh_count": 5,
+      "empty_count": 2,
+      "materials": [
+        "M_Emission",
+        "M_Metal",
+        "M_Screen",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Alarm_Control_Panel",
+      "moving_pivots": [
+        "Door_Hinge_Pivot"
+      ],
+      "errors": []
+    },
+    "SEC_Alarm_Keypad_Touch": {
+      "asset_id": 62,
+      "asset_name": "SEC_Alarm_Keypad_Touch",
+      "folder": "62. SEC_Alarm_Keypad_Touch",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\62. SEC_Alarm_Keypad_Touch\\exports\\SEC_Alarm_Keypad_Touch.fbx",
+      "file_size_bytes": 31708,
+      "status": "SUCCESS",
+      "tris_count": 48,
+      "budget": 300,
+      "mesh_count": 4,
+      "empty_count": 1,
+      "materials": [
+        "M_Emission",
+        "M_Screen",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Alarm_Keypad_Touch",
+      "moving_pivots": [],
+      "errors": []
+    },
+    "SEC_Alarm_Outdoor_Speaker": {
+      "asset_id": 63,
+      "asset_name": "SEC_Alarm_Outdoor_Speaker",
+      "folder": "63. SEC_Alarm_Outdoor_Speaker",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\63. SEC_Alarm_Outdoor_Speaker\\exports\\SEC_Alarm_Outdoor_Speaker.fbx",
+      "file_size_bytes": 35788,
+      "status": "SUCCESS",
+      "tris_count": 400,
+      "budget": 420,
+      "mesh_count": 4,
+      "empty_count": 2,
+      "materials": [
+        "M_Metal",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Alarm_Outdoor_Speaker",
+      "moving_pivots": [
+        "Aim_Pivot"
+      ],
+      "errors": []
+    },
+    "SEC_Alarm_Strobe_Light": {
+      "asset_id": 64,
+      "asset_name": "SEC_Alarm_Strobe_Light",
+      "folder": "64. SEC_Alarm_Strobe_Light",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\64. SEC_Alarm_Strobe_Light\\exports\\SEC_Alarm_Strobe_Light.fbx",
+      "file_size_bytes": 36684,
+      "status": "SUCCESS",
+      "tris_count": 260,
+      "budget": 280,
+      "mesh_count": 5,
+      "empty_count": 1,
+      "materials": [
+        "M_Emission",
+        "M_Security_Atlas",
+        "M_Transparent"
+      ],
+      "root_object": "SEC_Alarm_Strobe_Light",
+      "moving_pivots": [],
+      "errors": []
+    },
+    "SEC_Alarm_Manual_Call_Point": {
+      "asset_id": 65,
+      "asset_name": "SEC_Alarm_Manual_Call_Point",
+      "folder": "65. SEC_Alarm_Manual_Call_Point",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\65. SEC_Alarm_Manual_Call_Point\\exports\\SEC_Alarm_Manual_Call_Point.fbx",
+      "file_size_bytes": 33132,
+      "status": "SUCCESS",
+      "tris_count": 96,
+      "budget": 300,
+      "mesh_count": 4,
+      "empty_count": 2,
+      "materials": [
+        "M_Emission",
+        "M_Security_Atlas",
+        "M_Transparent"
+      ],
+      "root_object": "SEC_Alarm_Manual_Call_Point",
+      "moving_pivots": [
+        "Press_Pivot"
+      ],
+      "errors": []
+    },
+    "SEC_Cable_Tray_Straight": {
+      "asset_id": 66,
+      "asset_name": "SEC_Cable_Tray_Straight",
+      "folder": "66. SEC_Cable_Tray_Straight",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\66. SEC_Cable_Tray_Straight\\exports\\SEC_Cable_Tray_Straight.fbx",
+      "file_size_bytes": 25756,
+      "status": "SUCCESS",
+      "tris_count": 92,
+      "budget": 220,
+      "mesh_count": 3,
+      "empty_count": 1,
+      "materials": [
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Cable_Tray_Straight",
+      "moving_pivots": [],
+      "errors": []
+    },
+    "SEC_Cable_Tray_Elbow": {
+      "asset_id": 67,
+      "asset_name": "SEC_Cable_Tray_Elbow",
+      "folder": "67. SEC_Cable_Tray_Elbow",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\67. SEC_Cable_Tray_Elbow\\exports\\SEC_Cable_Tray_Elbow.fbx",
+      "file_size_bytes": 27020,
+      "status": "SUCCESS",
+      "tris_count": 252,
+      "budget": 360,
+      "mesh_count": 2,
+      "empty_count": 1,
+      "materials": [
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Cable_Tray_Elbow",
+      "moving_pivots": [],
+      "errors": []
+    },
+    "SEC_Cable_Tray_Tee": {
+      "asset_id": 68,
+      "asset_name": "SEC_Cable_Tray_Tee",
+      "folder": "68. SEC_Cable_Tray_Tee",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\68. SEC_Cable_Tray_Tee\\exports\\SEC_Cable_Tray_Tee.fbx",
+      "file_size_bytes": 26204,
+      "status": "SUCCESS",
+      "tris_count": 122,
+      "budget": 380,
+      "mesh_count": 3,
+      "empty_count": 1,
+      "materials": [
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Cable_Tray_Tee",
+      "moving_pivots": [],
+      "errors": []
+    },
+    "SEC_Cable_Gland_Set": {
+      "asset_id": 69,
+      "asset_name": "SEC_Cable_Gland_Set",
+      "folder": "69. SEC_Cable_Gland_Set",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\69. SEC_Cable_Gland_Set\\exports\\SEC_Cable_Gland_Set.fbx",
+      "file_size_bytes": 85884,
+      "status": "SUCCESS",
+      "tris_count": 5868,
+      "budget": 6000,
+      "mesh_count": 3,
+      "empty_count": 1,
+      "materials": [
+        "M_Metal",
+        "M_Rubber"
+      ],
+      "root_object": "SEC_Cable_Gland_Set",
+      "moving_pivots": [],
+      "errors": []
+    },
+    "SEC_Cable_Reel": {
+      "asset_id": 70,
+      "asset_name": "SEC_Cable_Reel",
+      "folder": "70. SEC_Cable_Reel",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\70. SEC_Cable_Reel\\exports\\SEC_Cable_Reel.fbx",
+      "file_size_bytes": 89052,
+      "status": "SUCCESS",
+      "tris_count": 3344,
+      "budget": 3500,
+      "mesh_count": 6,
+      "empty_count": 2,
+      "materials": [
+        "M_Metal",
+        "M_Rubber"
+      ],
+      "root_object": "SEC_Cable_Reel",
+      "moving_pivots": [
+        "Spindle_Pivot"
+      ],
+      "errors": []
+    },
+    "SEC_Cable_Connector_Set": {
+      "asset_id": 71,
+      "asset_name": "SEC_Cable_Connector_Set",
+      "folder": "71. SEC_Cable_Connector_Set",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\71. SEC_Cable_Connector_Set\\exports\\SEC_Cable_Connector_Set.fbx",
+      "file_size_bytes": 43116,
+      "status": "SUCCESS",
+      "tris_count": 1488,
+      "budget": 1500,
+      "mesh_count": 3,
+      "empty_count": 1,
+      "materials": [
+        "M_Metal",
+        "M_Rubber",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Cable_Connector_Set",
+      "moving_pivots": [],
+      "errors": []
+    },
+    "SEC_Conduit_Wall_Clamp": {
+      "asset_id": 72,
+      "asset_name": "SEC_Conduit_Wall_Clamp",
+      "folder": "72. SEC_Conduit_Wall_Clamp",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\72. SEC_Conduit_Wall_Clamp\\exports\\SEC_Conduit_Wall_Clamp.fbx",
+      "file_size_bytes": 60156,
+      "status": "SUCCESS",
+      "tris_count": 1588,
+      "budget": 1600,
+      "mesh_count": 4,
+      "empty_count": 2,
+      "materials": [
+        "M_Metal"
+      ],
+      "root_object": "SEC_Conduit_Wall_Clamp",
+      "moving_pivots": [
+        "Clamp_Upper_Pivot"
+      ],
+      "errors": []
+    },
+    "SEC_Conduit_Flexible_Hose": {
+      "asset_id": 73,
+      "asset_name": "SEC_Conduit_Flexible_Hose",
+      "folder": "73. SEC_Conduit_Flexible_Hose",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\73. SEC_Conduit_Flexible_Hose\\exports\\SEC_Conduit_Flexible_Hose.fbx",
+      "file_size_bytes": 67356,
+      "status": "SUCCESS",
+      "tris_count": 2264,
+      "budget": 2300,
+      "mesh_count": 3,
+      "empty_count": 1,
+      "materials": [
+        "M_Metal"
+      ],
+      "root_object": "SEC_Conduit_Flexible_Hose",
+      "moving_pivots": [],
+      "errors": []
+    },
+    "SEC_Ceiling_Cable_Drop": {
+      "asset_id": 74,
+      "asset_name": "SEC_Ceiling_Cable_Drop",
+      "folder": "74. SEC_Ceiling_Cable_Drop",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\74. SEC_Ceiling_Cable_Drop\\exports\\SEC_Ceiling_Cable_Drop.fbx",
+      "file_size_bytes": 35548,
+      "status": "SUCCESS",
+      "tris_count": 246,
+      "budget": 260,
+      "mesh_count": 4,
+      "empty_count": 2,
+      "materials": [
+        "M_Metal",
+        "M_Rubber"
+      ],
+      "root_object": "SEC_Ceiling_Cable_Drop",
+      "moving_pivots": [
+        "Cable_Pivot"
+      ],
+      "errors": []
+    },
+    "SEC_Server_Rack_Fan": {
+      "asset_id": 75,
+      "asset_name": "SEC_Server_Rack_Fan",
+      "folder": "75. SEC_Server_Rack_Fan",
+      "fbx_path": "C:\\Users\\Burak\\Desktop\\Security_CCTV\\75. SEC_Server_Rack_Fan\\exports\\SEC_Server_Rack_Fan.fbx",
+      "file_size_bytes": 44364,
+      "status": "SUCCESS",
+      "tris_count": 366,
+      "budget": 380,
+      "mesh_count": 7,
+      "empty_count": 2,
+      "materials": [
+        "M_Metal",
+        "M_Security_Atlas"
+      ],
+      "root_object": "SEC_Server_Rack_Fan",
+      "moving_pivots": [
+        "Fan_Rotation_Pivot"
+      ],
+      "errors": []
+    }
+  }
+}
