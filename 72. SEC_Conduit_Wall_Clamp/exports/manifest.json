@@ -1,0 +1,11 @@
+{
+  "asset_name": "SEC_Conduit_Wall_Clamp",
+  "fbx_path": "exports/SEC_Conduit_Wall_Clamp.fbx",
+  "triangles": 1588,
+  "mesh_count": 4,
+  "empty_count": 2,
+  "materials": [
+    "M_Metal"
+  ],
+  "status": "SUCCESS"
+}
