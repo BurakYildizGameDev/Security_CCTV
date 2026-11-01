@@ -1,0 +1,15 @@
+{
+  "SEC_Ceiling_Cable_Drop": {
+    "asset_name": "SEC_Ceiling_Cable_Drop",
+    "fbx_path": "exports/SEC_Ceiling_Cable_Drop.fbx",
+    "blend_path": "exports/SEC_Ceiling_Cable_Drop.blend",
+    "tris_count": 246,
+    "mesh_count": 4,
+    "empty_count": 2,
+    "materials": [
+      "M_Metal",
+      "M_Rubber"
+    ],
+    "status": "SUCCESS"
+  }
+}
