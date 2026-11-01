@@ -1,0 +1,11 @@
+{
+  "asset_name": "SEC_Conduit_Flexible_Hose",
+  "fbx_path": "exports/SEC_Conduit_Flexible_Hose.fbx",
+  "triangles": 2264,
+  "mesh_count": 3,
+  "empty_count": 1,
+  "materials": [
+    "M_Metal"
+  ],
+  "status": "SUCCESS"
+}
